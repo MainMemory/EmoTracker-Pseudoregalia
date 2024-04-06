@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Listless Library",
+    "chest_unopened_img": "images/ability_unopened.png",
+    "chest_opened_img": "images/ability_opened.png",
+    "color": "#0004fc",
+    "children": [
+      {
+        "name": "the chair at the entrance",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 160,
+            "y": 640
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chair",
+            "chest_opened_img": "images/chair_opened.png",
+            "chest_unopened_img": "images/chair_unopened.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_chairs" ]
+          }
+        ]
+      },
+      {
+        "name": "the time trial amidst the books",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 355,
+            "y": 455
+          }
+        ],
+        "sections": [
+          {
+            "name": "Outfit",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_outfits" ]
+          }
+        ]
+      },
+      {
+        "name": "where sun greaves normally is",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 440,
+            "y": 90
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ability",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_abilities" ]
+          },
+          {
+            "name": "Ability",
+            "access_rules": [],
+            "item_count": 2,
+            "visibility_rules": [ "opt_abilities,opt_splitGreaves" ]
+          }
+        ]
+      },
+      {
+        "name": "the chair after the normal sun greaves location",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 800,
+            "y": 350
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chair",
+            "chest_opened_img": "images/chair_opened.png",
+            "chest_unopened_img": "images/chair_unopened.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_chairs" ]
+          }
+        ]
+      },
+      {
+        "name": "the note next to the egg nest",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 480,
+            "y": 540
+          }
+        ],
+        "sections": [
+          {
+            "name": "Note",
+            "chest_opened_img": "images/note_opened.png",
+            "chest_unopened_img": "images/note_unopened.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_notes" ]
+          },
+          {
+            "name": "Chair",
+            "chest_opened_img": "images/chair_opened.png",
+            "chest_unopened_img": "images/chair_unopened.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_chairs" ]
+          }
+        ]
+      },
+      {
+        "name": "in the buttress room",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 765,
+            "y": 810
+          }
+        ],
+        "sections": [
+          {
+            "name": "Health",
+            "chest_opened_img": "images/heartpiece-Full_opened.png",
+            "chest_unopened_img": "images/items/heartpiece-Full.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_health" ]
+          }
+        ]
+      },
+      {
+        "name": "in the hay behind the locked door",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 255,
+            "y": 1110
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ability",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_abilities" ]
+          }
+        ]
+      },
+      {
+        "name": "tucked deep behind the locked door",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 410,
+            "y": 950
+          }
+        ],
+        "sections": [
+          {
+            "name": "Health",
+            "chest_opened_img": "images/heartpiece-Full_opened.png",
+            "chest_unopened_img": "images/items/heartpiece-Full.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_health" ]
+          }
+        ]
+      }
+    ]
+  }
+]

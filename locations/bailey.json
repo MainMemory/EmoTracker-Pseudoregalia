@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Empty Bailey",
+    "chest_unopened_img": "images/ability_unopened.png",
+    "chest_opened_img": "images/ability_opened.png",
+    "color": "#0004fc",
+    "children": [
+      {
+        "name": "the goatling who's hiding",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 465,
+            "y": 480
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goatling",
+            "chest_opened_img": "images/goatling_opened.png",
+            "chest_unopened_img": "images/goatling_unopened.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_goatlings" ]
+          }
+        ]
+      },
+      {
+        "name": "in the building you slide into",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 630,
+            "y": 480
+          }
+        ],
+        "sections": [
+          {
+            "name": "Small Key",
+            "chest_opened_img": "images/tex_key_opened.png",
+            "chest_unopened_img": "images/items/tex_key.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_smallKeys" ]
+          }
+        ]
+      },
+      {
+        "name": "guarded by the hand and soldier",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 520,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Big Key",
+            "chest_opened_img": "images/ui_BigKey_opened.png",
+            "chest_unopened_img": "images/items/ui_BigKey.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_bigKeys" ]
+          }
+        ]
+      },
+      {
+        "name": "where solar wind normally is",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 150,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ability",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_abilities" ]
+          }
+        ]
+      },
+      {
+        "name": "in the tower in the middle",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 430,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Health",
+            "chest_opened_img": "images/heartpiece-Full_opened.png",
+            "chest_unopened_img": "images/items/heartpiece-Full.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_health" ]
+          }
+        ]
+      },
+      {
+        "name": "under the cheese bell",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 430,
+            "y": 600
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ability",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_abilities" ]
+          }
+        ]
+      },
+      {
+        "name": "the locked up time trial",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 520,
+            "y": 330
+          }
+        ],
+        "sections": [
+          {
+            "name": "Outfit",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_outfits" ]
+          }
+        ]
+      }
+    ]
+  }
+]

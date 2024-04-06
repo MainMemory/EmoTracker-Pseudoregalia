@@ -1,0 +1,145 @@
+[
+    {
+      "name": "Dream Breaker",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/items/icon_attack.png",
+      "codes": "dreambreaker,db"
+    },
+    {
+      "name": "Indignation",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/items/icon_indignationEye.png",
+      "codes": "indignation"
+    },
+    {
+      "name": "Sun Greaves",
+      "type": "consumable",
+      "max_quantity": 3,
+      "img": "images/items/icon_greaves.png",
+      "codes": "sungreaves,greaves,sg"
+    },
+    {
+      "name": "Slide",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/items/icon_slide.png",
+      "codes": "slide"
+    },
+    {
+      "name": "Solar Wind",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/items/icon_slideJump.png",
+      "codes": "solarwind,wind,sw"
+    },
+    {
+      "name": "Sunsetter",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/items/icon_plunge.png",
+      "codes": "sunsetter"
+    },
+    {
+      "name": "Strikebreak",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/items/icon_chargeAttack.png",
+      "codes": "strikebreak,sb"
+    },
+    {
+      "name": "Cling Gem",
+      "type": "consumable",
+      "increment": 2,
+      "max_quantity": 6,
+      "img": "images/items/icon_clingGem.png",
+      "codes": "clinggem,cg"
+    },
+    {
+      "name": "Ascendant Light",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/items/icon_Light.png",
+      "codes": "ascendantlight,al"
+    },
+    {
+      "name": "Soul Cutter",
+      "type": "toggle",
+      "loop": true,
+      "img": "images/items/icon_Projectile.png",
+      "codes": "soulcutter,sc"
+    },
+    {
+      "name": "Clear Mind",
+      "type": "consumable",
+      "max_quantity": 3,
+      "img": "images/items/icon_clearMind.png",
+      "codes": "clearmind,mind,cm"
+    },
+    {
+      "name": "Empathy",
+      "type": "consumable",
+      "img": "images/items/icon_Empathy.png",
+      "codes": "empathy"
+    },
+    {
+      "name": "Good Graces",
+      "type": "consumable",
+      "img": "images/items/icon_graces.png",
+      "codes": "goodgraces,graces"
+    },
+    {
+      "name": "Martial Prowess",
+      "type": "consumable",
+      "img": "images/items/icon_martialProwress.png",
+      "codes": "martialprowess,prowess,mp"
+    },
+    {
+      "name": "Pilgrimage",
+      "type": "consumable",
+      "img": "images/items/icon_pilgrimage.png",
+      "codes": "pilgrimage"
+    },
+    {
+      "name": "Aerial Finesse",
+      "type": "toggle",
+      "img": "images/items/icon_recovery.png",
+      "codes": "aerialfinesse,af"
+    },
+    {
+      "name": "Heart Pieces",
+      "type": "progressive",
+      "stages": [
+        {
+          "img": "images/items/heartpieceBack.png",
+          "codes": "heartpieces"
+        },
+        { "img": "images/items/heartpiece1.png" },
+        { "img": "images/items/heartpiece-partial.png" }
+      ],
+      "allow_disabled": false,
+      "loop": true
+    },
+    {
+      "name": "Hearts",
+      "type": "consumable",
+      "min_quantity": 3,
+      "max_quantity": 8,
+      "img": "images/items/heartpiece-Full.png",
+      "codes": "hearts"
+    },
+    {
+      "name": "Small Keys",
+      "type": "consumable",
+      "img": "images/items/tex_key.png",
+      "codes": "smallkeys"
+    },
+    {
+      "name": "Big Keys",
+      "type": "consumable",
+      "max_quantity": 5,
+      "img": "images/items/ui_BigKey.png",
+      "codes": "bigkeys"
+    }
+]

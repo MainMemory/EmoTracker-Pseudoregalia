@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Abilities",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/Abilities.png",
+    "codes": "opt_abilities"
+  },
+  {
+    "name": "Outfits",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/Outfits.png",
+    "codes": "opt_outfits"
+  },
+  {
+    "name": "Health",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/Health.png",
+    "codes": "opt_health"
+  },
+  {
+    "name": "Goatlings",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/Goatlings.png",
+    "codes": "opt_goatlings"
+  },
+  {
+    "name": "Small Keys",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/Small Keys.png",
+    "codes": "opt_smallKeys"
+  },
+  {
+    "name": "Big Keys",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/Big Keys.png",
+    "codes": "opt_bigKeys"
+  },
+  {
+    "name": "Notes",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/Notes.png",
+    "codes": "opt_notes"
+  },
+  {
+    "name": "Chairs",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/Chairs.png",
+    "codes": "opt_chairs"
+  },
+  {
+    "name": "Split Greaves",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/Split Greaves.png",
+    "codes": "opt_splitGreaves"
+  },
+  {
+    "name": "Split Cling",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/settings/Split Cling.png",
+    "codes": "opt_splitCling"
+  },
+  {
+    "name": "Momentum Conservation",
+    "type": "consumable",
+    "max_quantity": 4,
+    "img": "images/settings/Momentum Conservation.png",
+    "codes": "opt_momentumConservation"
+  },
+  {
+    "name": "Single Wall Wallkick",
+    "type": "consumable",
+    "max_quantity": 4,
+    "img": "images/settings/Single Wall Wallkick.png",
+    "codes": "opt_singleWallWallkick"
+  },
+  {
+    "name": "Reverse Wallkicks",
+    "type": "consumable",
+    "max_quantity": 4,
+    "img": "images/settings/Reverse Wallkicks.png",
+    "codes": "opt_reverseWallkicks"
+  },
+  {
+    "name": "Sunsetter Flip Abuse",
+    "type": "consumable",
+    "max_quantity": 4,
+    "img": "images/settings/Sunsetter Flip Abuse.png",
+    "codes": "opt_sunsetterFlipAbuse"
+  },
+  {
+    "name": "Ascendant Light Abuse",
+    "type": "consumable",
+    "max_quantity": 4,
+    "img": "images/settings/Ascendant Light Abuse.png",
+    "codes": "opt_ascendantLightAbuse"
+  },
+  {
+    "name": "Movement",
+    "type": "consumable",
+    "max_quantity": 4,
+    "img": "images/settings/Movement.png",
+    "codes": "opt_movement"
+  },
+  {
+    "name": "Cling Abuse",
+    "type": "consumable",
+    "max_quantity": 4,
+    "img": "images/settings/Cling Abuse.png",
+    "codes": "opt_clingAbuse"
+  },
+  {
+    "name": "Knowledge",
+    "type": "consumable",
+    "max_quantity": 4,
+    "img": "images/settings/Knowledge.png",
+    "codes": "opt_knowledge"
+  }
+]

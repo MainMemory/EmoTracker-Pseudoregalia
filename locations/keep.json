@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Sansa Keep",
+    "chest_unopened_img": "images/ability_unopened.png",
+    "chest_opened_img": "images/ability_opened.png",
+    "color": "#0004fc",
+    "children": [
+      {
+        "name": "the goatling sad about the lack of furniture",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 755,
+            "y": 930
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goatling",
+            "chest_opened_img": "images/goatling_opened.png",
+            "chest_unopened_img": "images/goatling_unopened.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_goatlings" ]
+          }
+        ]
+      },
+      {
+        "name": "the goatling collapsing out of reality",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 1000,
+            "y": 350
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goatling",
+            "chest_opened_img": "images/goatling_opened.png",
+            "chest_unopened_img": "images/goatling_unopened.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_goatlings" ]
+          }
+        ]
+      },
+      {
+        "name": "the chair collapsing out of reality",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 900,
+            "y": 370
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chair",
+            "chest_opened_img": "images/chair_opened.png",
+            "chest_unopened_img": "images/chair_unopened.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_chairs" ]
+          }
+        ]
+      },
+      {
+        "name": "where strikebreak normally is",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 730,
+            "y": 370
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ability",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_abilities" ]
+          }
+        ]
+      },
+      {
+        "name": "where sunsetter normally is",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 965,
+            "y": 1230
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ability",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_abilities" ]
+          }
+        ]
+      },
+      {
+        "name": "in an alcove next to the locked door",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 775,
+            "y": 980
+          }
+        ],
+        "sections": [
+          {
+            "name": "Health",
+            "chest_opened_img": "images/heartpiece-Full_opened.png",
+            "chest_unopened_img": "images/items/heartpiece-Full.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_health" ]
+          }
+        ]
+      },
+      {
+        "name": "in the room with a lever on each side",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 1640,
+            "y": 950
+          }
+        ],
+        "sections": [
+          {
+            "name": "Small Key",
+            "chest_opened_img": "images/tex_key_opened.png",
+            "chest_unopened_img": "images/items/tex_key.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_smallKeys" ]
+          }
+        ]
+      },
+      {
+        "name": "tucked near the theatre entrance",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 210,
+            "y": 1285
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ability",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_abilities" ]
+          }
+        ]
+      },
+      {
+        "name": "at the end of the parkour",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 615,
+            "y": 70
+          }
+        ],
+        "sections": [
+          {
+            "name": "Big Key",
+            "chest_opened_img": "images/ui_BigKey_opened.png",
+            "chest_unopened_img": "images/items/ui_BigKey.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_bigKeys" ]
+          },
+          {
+            "name": "Outfit",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_outfits" ]
+          }
+        ]
+      },
+      {
+        "name": "the chair in the middle of the parkour",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 350,
+            "y": 670
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chair",
+            "chest_opened_img": "images/chair_opened.png",
+            "chest_unopened_img": "images/chair_unopened.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_chairs" ]
+          }
+        ]
+      }
+    ]
+  }
+]

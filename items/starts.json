@@ -1,0 +1,302 @@
+[
+  {
+    "name": "gameStart",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "gameStart"
+  },
+  {
+    "name": "dungeon_lower1",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "dungeon_lower1"
+  },
+  {
+    "name": "dungeonWestSave",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "dungeonWestSave"
+  },
+  {
+    "name": "dungeonWest",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "dungeonWest"
+  },
+  {
+    "name": "dungeonNorth",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "dungeonNorth"
+  },
+  {
+    "name": "dungeonSaveNearBoss",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "dungeonSaveNearBoss"
+  },
+  {
+    "name": "lowerSouthHigh",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "lowerSouthHigh"
+  },
+  {
+    "name": "startGazebo",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "startGazebo"
+  },
+  {
+    "name": "lowerNorthWestTheatre",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "lowerNorthWestTheatre"
+  },
+  {
+    "name": "lowerNorthNorthWest",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "lowerNorthNorthWest"
+  },
+  {
+    "name": "dungeon1",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "dungeon1"
+  },
+  {
+    "name": "lowerWest",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "lowerWest"
+  },
+  {
+    "name": "lowerNorth",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "lowerNorth"
+  },
+  {
+    "name": "exterior1",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "exterior1"
+  },
+  {
+    "name": "lowerMiddle",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "lowerMiddle"
+  },
+  {
+    "name": "lowerWestSave",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "lowerWestSave"
+  },
+  {
+    "name": "lowerEastSave",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "lowerEastSave"
+  },
+  {
+    "name": "lowerEast",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "lowerEast"
+  },
+  {
+    "name": "libraryWest",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "libraryWest"
+  },
+  {
+    "name": "saveLibraryWest",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "saveLibraryWest"
+  },
+  {
+    "name": "librarySave",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "librarySave"
+  },
+  {
+    "name": "upperSouth",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "upperSouth"
+  },
+  {
+    "name": "upperMiddle",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "upperMiddle"
+  },
+  {
+    "name": "saveUpperMid",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "saveUpperMid"
+  },
+  {
+    "name": "upperNorthEast",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "upperNorthEast"
+  },
+  {
+    "name": "upperNorthSave",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "upperNorthSave"
+  },
+  {
+    "name": "upperNorth",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "upperNorth"
+  },
+  {
+    "name": "upperSouthWest",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "upperSouthWest"
+  },
+  {
+    "name": "bailey_lower1",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "bailey_lower1"
+  },
+  {
+    "name": "exteriorWest",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "exteriorWest"
+  },
+  {
+    "name": "exteriorSouthEast",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "exteriorSouthEast"
+  },
+  {
+    "name": "exteriorEast",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "exteriorEast"
+  },
+  {
+    "name": "exteriorSouthSave",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "exteriorSouthSave"
+  },
+  {
+    "name": "cavesSouth",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "cavesSouth"
+  },
+  {
+    "name": "cavesEast",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "cavesEast"
+  },
+  {
+    "name": "cavesWest",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "cavesWest"
+  },
+  {
+    "name": "cavesWestSave",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "cavesWestSave"
+  },
+  {
+    "name": "postLightSave",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "postLightSave"
+  },
+  {
+    "name": "cavesSouthSave",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "cavesSouthSave"
+  },
+  {
+    "name": "cavesBigMiddleStart",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "cavesBigMiddleStart"
+  },
+  {
+    "name": "cavesBigSideStart",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "cavesBigSideStart"
+  },
+  {
+    "name": "towerSouth",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "towerSouth"
+  },
+  {
+    "name": "towerSave",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "towerSave"
+  },
+  {
+    "name": "towerTop",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "towerTop"
+  },
+  {
+    "name": "theatreEast",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "theatreEast"
+  },
+  {
+    "name": "theatreNorthEastUpper",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "theatreNorthEastUpper"
+  },
+  {
+    "name": "theatreSouthEast",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "theatreSouthEast"
+  },
+  {
+    "name": "theatreNorthEastLower",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "theatreNorthEastLower"
+  },
+  {
+    "name": "theatreSaveMain",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "theatreSaveMain"
+  },
+  {
+    "name": "theatreSouthWest",
+    "type": "toggle",
+    "img": "images/sybil.png",
+    "codes": "theatreSouthWest"
+  }
+]

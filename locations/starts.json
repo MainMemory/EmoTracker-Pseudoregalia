@@ -1,0 +1,858 @@
+[
+  {
+    "name": "Start Positions",
+    "color": "#0004fc",
+    "children": [
+      {
+        "name": "lower1",
+        "map_locations": [
+          {
+            "map": "dungeon",
+            "x": 2512,
+            "y": 680
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "dungeon_lower1",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "dungeonWestSave",
+        "map_locations": [
+          {
+            "map": "dungeon",
+            "x": 1024,
+            "y": 704
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "dungeonWestSave",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "gameStart",
+        "map_locations": [
+          {
+            "map": "dungeon",
+            "x": 2064,
+            "y": 928
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "gameStart",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "dungeonWest",
+        "map_locations": [
+          {
+            "map": "dungeon",
+            "x": 1216,
+            "y": 1658
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "dungeonWest",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "dungeonNorth",
+        "map_locations": [
+          {
+            "map": "dungeon",
+            "x": 496,
+            "y": 1088
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "dungeonNorth",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "dungeonSaveNearBoss",
+        "map_locations": [
+          {
+            "map": "dungeon",
+            "x": 1728,
+            "y": 592
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "dungeonSaveNearBoss",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "lowerSouthHigh",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 1450,
+            "y": 1260
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "lowerSouthHigh",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "startGazebo",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 1420,
+            "y": 430
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "startGazebo",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "lowerNorthWestTheatre",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 690,
+            "y": 180
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "lowerNorthWestTheatre",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "lowerNorthNorthWest",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 430,
+            "y": 490
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "lowerNorthNorthWest",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "dungeon1",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 1130,
+            "y": 670
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "dungeon1",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "lowerWest",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 940,
+            "y": 700
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "lowerWest",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "lowerNorth",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 1730,
+            "y": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "lowerNorth",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "exterior1",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 1455,
+            "y": 1440
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "exterior1",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "lowerMiddle",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 1640,
+            "y": 955
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "lowerMiddle",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "lowerWestSave",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 1240,
+            "y": 860
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "lowerWestSave",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "lowerEastSave",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 1740,
+            "y": 550
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "lowerEastSave",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "lowerEast",
+        "map_locations": [
+          {
+            "map": "lowerCastle",
+            "x": 2150,
+            "y": 925
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "lowerEast",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "libraryWest",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 80,
+            "y": 680
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "libraryWest",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "saveLibraryWest",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 615,
+            "y": 205
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "saveLibraryWest",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "librarySave",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 225,
+            "y": 620
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "librarySave",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "upperSouth",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 615,
+            "y": 1280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "upperSouth",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "upperMiddle",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 910,
+            "y": 900
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "upperMiddle",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "saveUpperMid",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 615,
+            "y": 1050
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "saveUpperMid",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "upperNorthEast",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 1155,
+            "y": 515
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "upperNorthEast",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "upperNorthSave",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 900,
+            "y": 560
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "upperNorthSave",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "upperNorth",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 965,
+            "y": 265
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "upperNorth",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "upperSouthWest",
+        "map_locations": [
+          {
+            "map": "keep",
+            "x": 145,
+            "y": 1475
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "upperSouthWest",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "lower1",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 145,
+            "y": 1475
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "bailey_lower1",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "exteriorWest",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 360,
+            "y": 75
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "exteriorWest",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "exteriorSouthEast",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 1500,
+            "y": 630
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "exteriorSouthEast",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "exteriorEast",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 1125,
+            "y": 185
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "exteriorEast",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "exteriorSouthSave",
+        "map_locations": [
+          {
+            "map": "bailey",
+            "x": 730,
+            "y": 510
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "exteriorSouthSave",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "cavesSouth",
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 705,
+            "y": 2080
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "cavesSouth",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "cavesEast",
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 1805,
+            "y": 1025
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "cavesEast",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "cavesWest",
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 1010,
+            "y": 300
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "cavesWest",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "cavesWestSave",
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 580,
+            "y": 335
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "cavesWestSave",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "postLightSave",
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 430,
+            "y": 490
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "postLightSave",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "cavesSouthSave",
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 650,
+            "y": 1890
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "cavesSouthSave",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "cavesBigMiddleStart",
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 850,
+            "y": 1170
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "cavesBigMiddleStart",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "cavesBigSideStart",
+        "map_locations": [
+          {
+            "map": "caves",
+            "x": 1740,
+            "y": 800
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "cavesBigSideStart",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "towerSouth",
+        "map_locations": [
+          {
+            "map": "tower",
+            "x": 200,
+            "y": 1830
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "towerSouth",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "towerSave",
+        "map_locations": [
+          {
+            "map": "tower",
+            "x": 150,
+            "y": 1090
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "towerSave",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "towerTop",
+        "map_locations": [
+          {
+            "map": "tower",
+            "x": 200,
+            "y": 20
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "towerTop",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "theatreEast",
+        "map_locations": [
+          {
+            "map": "theatre",
+            "x": 1140,
+            "y": 1070
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "theatreEast",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "theatreNorthEastUpper",
+        "map_locations": [
+          {
+            "map": "theatre",
+            "x": 1380,
+            "y": 435
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "theatreNorthEastUpper",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "theatreSouthEast",
+        "map_locations": [
+          {
+            "map": "theatre",
+            "x": 1050,
+            "y": 1265
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "theatreSouthEast",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "theatreNorthEastLower",
+        "map_locations": [
+          {
+            "map": "theatre",
+            "x": 1100,
+            "y": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "theatreNorthEastLower",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "theatreSaveMain",
+        "map_locations": [
+          {
+            "map": "theatre",
+            "x": 585,
+            "y": 625
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "theatreSaveMain",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      },
+      {
+        "name": "theatreSouthWest",
+        "map_locations": [
+          {
+            "map": "theatre",
+            "x": 390,
+            "y": 1275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start",
+            "hosted_item": "theatreSouthWest",
+            "visibility_rules": [ "$startNotSet" ]
+          }
+        ]
+      }
+    ]
+  }
+]

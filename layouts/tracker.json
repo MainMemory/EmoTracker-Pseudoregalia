@@ -1,0 +1,385 @@
+{
+  "item_grid": {
+    "type": "itemgrid",
+    "h_alignment": "stretch",
+    "item_margin": "4,4",
+    "item_size": "36",
+    "rows": [
+      [ "dreambreaker", "indignation", "sungreaves" ],
+      [ "slide", "solarwind", "sunsetter" ],
+      [ "strikebreak", "clinggem", "ascendantlight" ],
+      [ "soulcutter" ],
+      [ "clearmind", "empathy", "goodgraces" ],
+      [ "martialprowess", "pilgrimage", "aerialfinesse" ],
+      [ "heartpieces", "smallkeys", "bigkeys" ]
+    ]
+  },
+  "settings_grid": {
+    "type": "array",
+    "margin": "5",
+    "content": [
+      {
+        "type": "group",
+        "header": "Settings",
+        "content": [
+          {
+            "type": "array",
+            "content": [
+              {
+                "type": "group",
+                "header": "Options",
+                "margin": "0, 0, 0, 10",
+                "content": [
+                  {
+                    "type": "array",
+                    "content": [
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_abilities"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_outfits"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_health"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_goatlings"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_smallKeys"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_bigKeys"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_notes"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_chairs"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_splitGreaves"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_splitCling"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "header": "Tricks",
+                "margin": "0, 0, 0, 10",
+                "content": [
+                  {
+                    "type": "array",
+                    "content": [
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_momentumConservation"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_singleWallWallkick"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_reverseWallkicks"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_sunsetterFlipAbuse"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_ascendantLightAbuse"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_movement"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_clingAbuse"
+                      },
+                      {
+                        "type": "item",
+                        "margin": "0, 4, 0, 0",
+                        "item": "opt_knowledge"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tracker_default": {
+    "type": "container",
+    "background": "#085810",
+    "content": {
+      "type": "dock",
+      "dropshadow": false,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "margin": "0,0,3,0",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "header_content": {
+                "type": "button_popup",
+                "style": "settings",
+                "popup_background": "#50212121",
+                "layout": "settings_grid"
+              },
+              "content": [
+                {
+                  "type": "layout",
+                  "margin": "0, 0, 0, 0",
+                  "key": "item_grid"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "header": "Pinnned Locations",
+              "dock": "left",
+              "content": {
+                "type": "scroll",
+                "horizontal_scrollbar_visibility": "disabled",
+                "vertical_scrollbar_visibility": "auto",
+                "content": {
+                  "type": "recentpins",
+                  "style": "wrap",
+                  "h_alignment": "stretch",
+                  "v_alignment": "stretch",
+                  "orientation": "vertical",
+                  "compact": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "v_alignment": "stretch",
+          "margin": "0,0,0,0",
+          "content": [
+            {
+              "type": "tabbed",
+              "dock": "top",
+              "tabs": [
+                {
+                  "title": "Dilapidated Dungeon",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "dungeon" ]
+                  }
+                },
+                {
+                  "title": "Castle Sansa",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "lowerCastle" ]
+                  }
+                },
+                {
+                  "title": "Listless Library",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "library" ]
+                  }
+                },
+                {
+                  "title": "Sansa Keep",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "keep" ]
+                  }
+                },
+                {
+                  "title": "Empty Bailey",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "bailey" ]
+                  }
+                },
+                {
+                  "title": "Underbelly",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "caves" ]
+                  }
+                },
+                {
+                  "title": "Tower Ruins",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "tower" ]
+                  }
+                },
+                {
+                  "title": "Twilight Theatre",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "theatre" ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracker_vertical": {
+    "type": "container",
+    "background": "#28622e",
+    "content": {
+      "type": "dock",
+      "dropshadow": false,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "v_alignment": "stretch",
+          "margin": "0,0,3,0",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "header_content": {
+                "type": "button_popup",
+                "style": "settings",
+                "popup_background": "#50212121",
+                "layout": "settings_grid"
+              },
+              "content": {
+                "type": "layout",
+                "key": "item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "dock": "right",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "vertical",
+                "compact": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "v_alignment": "stretch",
+          "margin": "0,0,0,0",
+          "content": [
+            {
+              "type": "tabbed",
+              "dock": "top",
+              "tabs": [
+                {
+                  "title": "Dilapidated Dungeon",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "dungeon" ]
+                  }
+                },
+                {
+                  "title": "Castle Sansa",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "lowerCastle" ]
+                  }
+                },
+                {
+                  "title": "Listless Library",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "library" ]
+                  }
+                },
+                {
+                  "title": "Sansa Keep",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "keep" ]
+                  }
+                },
+                {
+                  "title": "Empty Bailey",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "bailey" ]
+                  }
+                },
+                {
+                  "title": "Underbelly",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "caves" ]
+                  }
+                },
+                {
+                  "title": "Tower Ruins",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "tower" ]
+                  }
+                },
+                {
+                  "title": "Twilight Theatre",
+                  "content": {
+                    "type": "map",
+                    "maps": [ "theatre" ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

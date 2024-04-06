@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Tower Ruins",
+    "chest_unopened_img": "images/ability_unopened.png",
+    "chest_opened_img": "images/ability_opened.png",
+    "color": "#0004fc",
+    "children": [
+      {
+        "name": "where cling gem normally is",
+        "map_locations": [
+          {
+            "map": "tower",
+            "x": 200,
+            "y": 550
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ability",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_abilities" ]
+          },
+          {
+            "name": "Ability",
+            "access_rules": [],
+            "item_count": 2,
+            "visibility_rules": [ "opt_abilities,opt_splitCling" ]
+          }
+        ]
+      },
+      {
+        "name": "atop the tower",
+        "map_locations": [
+          {
+            "map": "tower",
+            "x": 200,
+            "y": 290
+          }
+        ],
+        "sections": [
+          {
+            "name": "Big Key",
+            "chest_opened_img": "images/ui_BigKey_opened.png",
+            "chest_unopened_img": "images/items/ui_BigKey.png",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_bigKeys" ]
+          }
+        ]
+      },
+      {
+        "name": "the time trial at the tower entrance",
+        "map_locations": [
+          {
+            "map": "tower",
+            "x": 110,
+            "y": 680
+          }
+        ],
+        "sections": [
+          {
+            "name": "Outfit",
+            "access_rules": [],
+            "item_count": 1,
+            "visibility_rules": [ "opt_outfits" ]
+          }
+        ]
+      }
+    ]
+  }
+]
