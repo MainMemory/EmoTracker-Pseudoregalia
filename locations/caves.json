@@ -3,237 +3,274 @@
     "name": "Underbelly",
     "chest_unopened_img": "images/ability_unopened.png",
     "chest_opened_img": "images/ability_opened.png",
-    "color": "#0004fc",
+    "color": "#8000C0",
     "children": [
       {
-        "name": "near the entrance from sansa keep",
-        "map_locations": [
+        "name": "SansaHole",
+        "access_rules": [ "$locAccess|SansaHole" ],
+        "children": [
           {
-            "map": "caves",
-            "x": 1770,
-            "y": 1120
-          }
-        ],
-        "sections": [
+            "name": "near the entrance from sansa keep",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 1770,
+                "y": 1120
+              }
+            ],
+            "sections": [
+              {
+                "name": "Health",
+                "chest_opened_img": "images/heartpiece-Full_opened.png",
+                "chest_unopened_img": "images/items/heartpiece-Full.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_health" ]
+              }
+            ],
+            "access_rules": [ "$Health11" ]
+          },
           {
-            "name": "Health",
-            "chest_opened_img": "images/heartpiece-Full_opened.png",
-            "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
-          }
-        ]
-      },
-      {
-        "name": "the soul cutter lever room",
-        "map_locations": [
-          {
-            "map": "caves",
-            "x": 2540,
-            "y": 1470
-          }
-        ],
-        "sections": [
-          {
-            "name": "Big Key",
-            "chest_opened_img": "images/ui_BigKey_opened.png",
-            "chest_unopened_img": "images/items/ui_BigKey.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_bigKeys" ]
-          }
-        ]
-      },
-      {
-        "name": "where ascendant light normally is",
-        "map_locations": [
-          {
-            "map": "caves",
-            "x": 370,
-            "y": 490
-          }
-        ],
-        "sections": [
-          {
-            "name": "Ability",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
+            "name": "the soul cutter lever room",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 2540,
+                "y": 1470
+              }
+            ],
+            "sections": [
+              {
+                "name": "Big Key",
+                "chest_opened_img": "images/ui_BigKey_opened.png",
+                "chest_unopened_img": "images/items/ui_BigKey.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_bigKeys" ]
+              }
+            ],
+            "access_rules": [ "$BigKey2" ]
           }
         ]
       },
       {
-        "name": "in an alcove behind some pillars",
-        "map_locations": [
+        "name": "VAscendantLight",
+        "access_rules": [ "$locAccess|VAscendantLight" ],
+        "children": [
           {
-            "map": "caves",
-            "x": 525,
-            "y": 805
-          }
-        ],
-        "sections": [
+            "name": "where ascendant light normally is",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 370,
+                "y": 490
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ability",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_abilities" ]
+              }
+            ],
+            "access_rules": [ "$Ability20" ]
+          },
           {
-            "name": "Health",
-            "chest_opened_img": "images/heartpiece-Full_opened.png",
-            "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
-          }
-        ]
-      },
-      {
-        "name": "on a missable ledge in the centre",
-        "map_locations": [
-          {
-            "map": "caves",
-            "x": 625,
-            "y": 1240
-          }
-        ],
-        "sections": [
-          {
-            "name": "Small Key",
-            "chest_opened_img": "images/tex_key_opened.png",
-            "chest_unopened_img": "images/items/tex_key.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_smallKeys" ]
-          }
-        ]
-      },
-      {
-        "name": "the note on a high ledge in the big room",
-        "map_locations": [
-          {
-            "map": "caves",
-            "x": 860,
-            "y": 1520
-          }
-        ],
-        "sections": [
-          {
-            "name": "Note",
-            "chest_opened_img": "images/note_opened.png",
-            "chest_unopened_img": "images/note_unopened.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_notes" ]
+            "name": "in an alcove behind some pillars",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 525,
+                "y": 805
+              }
+            ],
+            "sections": [
+              {
+                "name": "Health",
+                "chest_opened_img": "images/heartpiece-Full_opened.png",
+                "chest_unopened_img": "images/items/heartpiece-Full.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_health" ]
+              }
+            ],
+            "access_rules": [ "$Health12" ]
           }
         ]
       },
       {
-        "name": "black hole parkour behind strikebreak wall",
-        "map_locations": [
+        "name": "MainUnderbelly",
+        "access_rules": [ "$locAccess|MainUnderbelly" ],
+        "children": [
           {
-            "map": "caves",
-            "x": 1305,
-            "y": 835
-          }
-        ],
-        "sections": [
+            "name": "on a missable ledge in the centre",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 625,
+                "y": 1240
+              }
+            ],
+            "sections": [
+              {
+                "name": "Small Key",
+                "chest_opened_img": "images/tex_key_opened.png",
+                "chest_unopened_img": "images/items/tex_key.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_smallKeys" ]
+              }
+            ],
+            "access_rules": [ "$SmallKey6" ]
+          },
           {
-            "name": "Ability",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
-          }
-        ]
-      },
-      {
-        "name": "the locked up time trial",
-        "map_locations": [
+            "name": "the note on a high ledge in the big room",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 860,
+                "y": 1520
+              }
+            ],
+            "sections": [
+              {
+                "name": "Note",
+                "chest_opened_img": "images/note_opened.png",
+                "chest_unopened_img": "images/note_unopened.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_notes" ]
+              }
+            ],
+            "access_rules": [ "$Note1" ]
+          },
           {
-            "map": "caves",
-            "x": 730,
-            "y": 1110
-          }
-        ],
-        "sections": [
+            "name": "black hole parkour behind strikebreak wall",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 1305,
+                "y": 835
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ability",
+                "item_count": 1,
+                "visibility_rules": [ "opt_abilities" ]
+              }
+            ],
+            "access_rules": [ "$Ability21" ]
+          },
           {
-            "name": "Outfit",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_outfits" ]
-          }
-        ]
-      },
-      {
-        "name": "behind the locked door",
-        "map_locations": [
-          {
-            "map": "caves",
-            "x": 1730,
-            "y": 580
-          }
-        ],
-        "sections": [
-          {
-            "name": "Ability",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
-          }
-        ]
-      },
-      {
-        "name": "the note behind the locked door",
-        "map_locations": [
-          {
-            "map": "caves",
-            "x": 1700,
-            "y": 585
-          }
-        ],
-        "sections": [
-          {
-            "name": "Note",
-            "chest_opened_img": "images/note_opened.png",
-            "chest_unopened_img": "images/note_unopened.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_notes" ]
-          }
-        ]
-      },
-      {
-        "name": "the note near the empty bailey entrance",
-        "map_locations": [
-          {
-            "map": "caves",
-            "x": 660,
-            "y": 1955
-          }
-        ],
-        "sections": [
-          {
-            "name": "Note",
-            "chest_opened_img": "images/note_opened.png",
-            "chest_unopened_img": "images/note_unopened.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_notes" ]
+            "name": "the locked up time trial",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 730,
+                "y": 1110
+              }
+            ],
+            "sections": [
+              {
+                "name": "Outfit",
+                "item_count": 1,
+                "visibility_rules": [ "opt_outfits" ]
+              }
+            ],
+            "access_rules": [ "$Ability22" ]
           }
         ]
       },
       {
-        "name": "on top of the big building",
-        "map_locations": [
+        "name": "HpSave",
+        "access_rules": [ "$locAccess|HpSave" ],
+        "children": [
           {
-            "map": "caves",
-            "x": 415,
-            "y": 1710
+            "name": "behind the locked door",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 1730,
+                "y": 580
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ability",
+                "item_count": 1,
+                "visibility_rules": [ "opt_abilities" ]
+              }
+            ],
+            "access_rules": [ "$Ability23" ]
+          },
+          {
+            "name": "the note behind the locked door",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 1700,
+                "y": 585
+              }
+            ],
+            "sections": [
+              {
+                "name": "Note",
+                "chest_opened_img": "images/note_opened.png",
+                "chest_unopened_img": "images/note_unopened.png",
+                "item_count": 1,
+                "visibility_rules": [ "opt_notes" ]
+              }
+            ],
+            "access_rules": [ "$Note2" ]
           }
-        ],
-        "sections": [
+        ]
+      },
+      {
+        "name": "BaileyHole",
+        "access_rules": [ "$locAccess|BaileyHole" ],
+        "children": [
           {
-            "name": "Health",
-            "chest_opened_img": "images/heartpiece-Full_opened.png",
-            "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
+            "name": "the note near the empty bailey entrance",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 660,
+                "y": 1955
+              }
+            ],
+            "sections": [
+              {
+                "name": "Note",
+                "chest_opened_img": "images/note_opened.png",
+                "chest_unopened_img": "images/note_unopened.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_notes" ]
+              }
+            ],
+            "access_rules": [ "$Note3" ]
+          },
+          {
+            "name": "on top of the big building",
+            "map_locations": [
+              {
+                "map": "caves",
+                "x": 415,
+                "y": 1710
+              }
+            ],
+            "sections": [
+              {
+                "name": "Health",
+                "chest_opened_img": "images/heartpiece-Full_opened.png",
+                "chest_unopened_img": "images/items/heartpiece-Full.png",
+                "item_count": 1,
+                "visibility_rules": [ "opt_health" ]
+              }
+            ],
+            "access_rules": [ "$Health13" ]
           }
         ]
       }

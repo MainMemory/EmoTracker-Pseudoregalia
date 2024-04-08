@@ -3,7 +3,8 @@
     "name": "Tower Ruins",
     "chest_unopened_img": "images/ability_unopened.png",
     "chest_opened_img": "images/ability_opened.png",
-    "color": "#0004fc",
+    "color": "#00C000",
+    "access_rules": [ "$locAccess|TowerRuinsKeep" ],
     "children": [
       {
         "name": "where cling gem normally is",
@@ -19,15 +20,18 @@
             "name": "Ability",
             "access_rules": [],
             "item_count": 1,
+            "capture_item": true,
             "visibility_rules": [ "opt_abilities" ]
           },
           {
             "name": "Ability",
             "access_rules": [],
             "item_count": 2,
+            "capture_item": true,
             "visibility_rules": [ "opt_abilities,opt_splitCling" ]
           }
-        ]
+        ],
+        "access_rules": [ "$Ability24" ]
       },
       {
         "name": "atop the tower",
@@ -45,9 +49,11 @@
             "chest_unopened_img": "images/items/ui_BigKey.png",
             "access_rules": [],
             "item_count": 1,
+            "capture_item": true,
             "visibility_rules": [ "opt_bigKeys" ]
           }
-        ]
+        ],
+        "access_rules": [ "$BigKey3" ]
       },
       {
         "name": "the time trial at the tower entrance",
@@ -65,7 +71,8 @@
             "item_count": 1,
             "visibility_rules": [ "opt_outfits" ]
           }
-        ]
+        ],
+        "access_rules": [ "$Ability25" ]
       }
     ]
   }

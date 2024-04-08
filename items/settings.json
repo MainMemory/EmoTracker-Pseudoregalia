@@ -74,55 +74,55 @@
     "type": "consumable",
     "max_quantity": 4,
     "img": "images/settings/Momentum Conservation.png",
-    "codes": "opt_momentumConservation"
+    "codes": "Momentum"
   },
   {
     "name": "Single Wall Wallkick",
     "type": "consumable",
     "max_quantity": 4,
     "img": "images/settings/Single Wall Wallkick.png",
-    "codes": "opt_singleWallWallkick"
+    "codes": "OneWall"
   },
   {
     "name": "Reverse Wallkicks",
     "type": "consumable",
     "max_quantity": 4,
     "img": "images/settings/Reverse Wallkicks.png",
-    "codes": "opt_reverseWallkicks"
+    "codes": "ReverseKick"
   },
   {
     "name": "Sunsetter Flip Abuse",
     "type": "consumable",
     "max_quantity": 4,
     "img": "images/settings/Sunsetter Flip Abuse.png",
-    "codes": "opt_sunsetterFlipAbuse"
+    "codes": "SunsetterAbuse"
   },
   {
     "name": "Ascendant Light Abuse",
     "type": "consumable",
     "max_quantity": 4,
     "img": "images/settings/Ascendant Light Abuse.png",
-    "codes": "opt_ascendantLightAbuse"
+    "codes": "PogoAbuse"
   },
   {
     "name": "Movement",
     "type": "consumable",
     "max_quantity": 4,
     "img": "images/settings/Movement.png",
-    "codes": "opt_movement"
+    "codes": "Movement"
   },
   {
     "name": "Cling Abuse",
     "type": "consumable",
     "max_quantity": 4,
     "img": "images/settings/Cling Abuse.png",
-    "codes": "opt_clingAbuse"
+    "codes": "ClingAbuse"
   },
   {
     "name": "Knowledge",
     "type": "consumable",
     "max_quantity": 4,
     "img": "images/settings/Knowledge.png",
-    "codes": "opt_knowledge"
+    "codes": "Knowledge"
   }
 ]

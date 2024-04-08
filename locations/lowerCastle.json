@@ -3,390 +3,414 @@
     "name": "Castle Sansa",
     "chest_unopened_img": "images/ability_unopened.png",
     "chest_opened_img": "images/ability_opened.png",
-    "color": "#0004fc",
+    "color": "#0000FF",
     "children": [
       {
-        "name": "the goatling lamenting the skill issue of players who need a map",
-        "map_locations": [
+        "name": "CsMain",
+        "access_rules": [ "$locAccess|CsMain" ],
+        "children": [
           {
-            "map": "lowerCastle",
-            "x": 1216,
-            "y": 960
-          }
-        ],
-        "sections": [
-          {
-            "name": "Goatling",
-            "chest_opened_img": "images/goatling_opened.png",
-            "chest_unopened_img": "images/goatling_unopened.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_goatlings" ]
-          }
-        ]
-      },
-      {
-        "name": "where memento normally is",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1312,
-            "y": 1032
-          }
-        ],
-        "sections": [
-          {
-            "name": "Ability",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
-          }
-        ]
-      },
-      {
-        "name": "the goatling who wants to lick the checkpoint",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1240,
-            "y": 848
-          }
-        ],
-        "sections": [
-          {
-            "name": "Goatling",
-            "chest_opened_img": "images/goatling_opened.png",
-            "chest_unopened_img": "images/goatling_unopened.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_goatlings" ]
+            "name": "the goatling lamenting the skill issue of players who need a map",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1216,
+                "y": 960
+              }
+            ],
+            "sections": [
+              {
+                "name": "Goatling",
+                "chest_opened_img": "images/goatling_opened.png",
+                "chest_unopened_img": "images/goatling_unopened.png",
+                "item_count": 1,
+                "visibility_rules": [ "opt_goatlings" ]
+              }
+            ]
           },
           {
-            "name": "Chair",
-            "chest_opened_img": "images/chair_opened.png",
-            "chest_unopened_img": "images/chair_unopened.png",
-            "access_rules": [],
-            "item_count": 3,
-            "visibility_rules": [ "opt_chairs" ]
-          }
-        ]
-      },
-      {
-        "name": "where indignation normally is",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1536,
-            "y": 880
-          }
-        ],
-        "sections": [
-          {
-            "name": "Ability",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
-          }
-        ]
-      },
-      {
-        "name": "chillin' on a ledge by the window",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1504,
-            "y": 1008
-          }
-        ],
-        "sections": [
-          {
-            "name": "Small Key",
-            "chest_opened_img": "images/tex_key_opened.png",
-            "chest_unopened_img": "images/items/tex_key.png",
-            "access_rules": [],
-            "item_count": 1,
-            "capture_item": true,
-            "visibility_rules": [ "opt_smallKeys" ]
-          }
-        ]
-      },
-      {
-        "name": "the goatling who wanted to see the armour display",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1840,
-            "y": 896
-          }
-        ],
-        "sections": [
-          {
-            "name": "Goatling",
-            "chest_opened_img": "images/goatling_opened.png",
-            "chest_unopened_img": "images/goatling_unopened.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_goatlings" ]
-          }
-        ]
-      },
-      {
-        "name": "the time trial behind a locked door",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1712,
-            "y": 768
-          }
-        ],
-        "sections": [
-          {
-            "name": "Outfit",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_outfits" ]
-          }
-        ]
-      },
-      {
-        "name": "tucked deep in a corner in the bouncer room",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1590,
-            "y": 1168
-          }
-        ],
-        "sections": [
-          {
-            "name": "Health",
-            "chest_opened_img": "images/heartpiece-Full_opened.png",
-            "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
-          }
-        ]
-      },
-      {
-        "name": "the extremely slappable wheel guy room",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1800,
-            "y": 160
-          }
-        ],
-        "sections": [
-          {
-            "name": "Health",
-            "chest_opened_img": "images/heartpiece-Full_opened.png",
-            "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
-          }
-        ]
-      },
-      {
-        "name": "the old softlock room",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 624,
-            "y": 164
-          }
-        ],
-        "sections": [
-          {
-            "name": "Health",
-            "chest_opened_img": "images/heartpiece-Full_opened.png",
-            "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
-          }
-        ]
-      },
-      {
-        "name": "the goatling about to jump into the haze",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 704,
-            "y": 528
-          }
-        ],
-        "sections": [
-          {
-            "name": "Goatling",
-            "chest_opened_img": "images/goatling_opened.png",
-            "chest_unopened_img": "images/goatling_unopened.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_goatlings" ]
-          }
-        ]
-      },
-      {
-        "name": "cool moon room",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 658,
-            "y": 796
-          }
-        ],
-        "sections": [
-          {
-            "name": "Ability",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
-          }
-        ]
-      },
-      {
-        "name": "through the wallkick tunnel",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 2000,
-            "y": 444
-          }
-        ],
-        "sections": [
-          {
-            "name": "Small Key",
-            "chest_opened_img": "images/tex_key_opened.png",
-            "chest_unopened_img": "images/items/tex_key.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_smallKeys" ]
-          }
-        ]
-      },
-      {
-        "name": "in the pit next to the dungeon entrance",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1220,
-            "y": 710
-          }
-        ],
-        "sections": [
-          {
-            "name": "Health",
-            "chest_opened_img": "images/heartpiece-Full_opened.png",
-            "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
-          }
-        ]
-      },
-      {
-        "name": "the goatling that calls you bubble girl",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1370,
-            "y": 740
-          }
-        ],
-        "sections": [
-          {
-            "name": "Goatling",
-            "chest_opened_img": "images/goatling_opened.png",
-            "chest_unopened_img": "images/goatling_unopened.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_goatlings" ]
-          }
-        ]
-      },
-      {
-        "name": "on the ledge above the bailey entrance",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1460,
-            "y": 1400
-          }
-        ],
-        "sections": [
-          {
-            "name": "Health",
-            "chest_opened_img": "images/heartpiece-Full_opened.png",
-            "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
-          }
-        ]
-      },
-      {
-        "name": "the goatling in the gazebo",
-        "map_locations": [
-          {
-            "map": "lowerCastle",
-            "x": 1420,
-            "y": 420
-          }
-        ],
-        "sections": [
-          {
-            "name": "Goatling",
-            "chest_opened_img": "images/goatling_opened.png",
-            "chest_unopened_img": "images/goatling_unopened.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_goatlings" ]
+            "name": "where memento normally is",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1312,
+                "y": 1032
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ability",
+                "item_count": 1,
+                "visibility_rules": [ "opt_abilities" ]
+              }
+            ]
           },
           {
-            "name": "Chair",
-            "chest_opened_img": "images/chair_opened.png",
-            "chest_unopened_img": "images/chair_unopened.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_chairs" ]
+            "name": "the goatling who wants to lick the checkpoint",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1240,
+                "y": 848
+              }
+            ],
+            "sections": [
+              {
+                "name": "Goatling",
+                "chest_opened_img": "images/goatling_opened.png",
+                "chest_unopened_img": "images/goatling_unopened.png",
+                "item_count": 1,
+                "visibility_rules": [ "opt_goatlings" ]
+              },
+              {
+                "name": "Chair",
+                "chest_opened_img": "images/chair_opened.png",
+                "chest_unopened_img": "images/chair_unopened.png",
+                "item_count": 3,
+                "visibility_rules": [ "opt_chairs" ]
+              }
+            ]
+          },
+          {
+            "name": "where indignation normally is",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1536,
+                "y": 880
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ability",
+                "item_count": 1,
+                "visibility_rules": [ "opt_abilities" ]
+              }
+            ]
+          },
+          {
+            "name": "chillin' on a ledge by the window",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1504,
+                "y": 1008
+              }
+            ],
+            "sections": [
+              {
+                "name": "Small Key",
+                "chest_opened_img": "images/tex_key_opened.png",
+                "chest_unopened_img": "images/items/tex_key.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_smallKeys" ]
+              }
+            ],
+            "access_rules": [ "$SmallKey2" ]
+          },
+          {
+            "name": "the goatling who wanted to see the armour display",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1840,
+                "y": 896
+              }
+            ],
+            "sections": [
+              {
+                "name": "Goatling",
+                "chest_opened_img": "images/goatling_opened.png",
+                "chest_unopened_img": "images/goatling_unopened.png",
+                "item_count": 1,
+                "visibility_rules": [ "opt_goatlings" ]
+              }
+            ]
+          },
+          {
+            "name": "the time trial behind a locked door",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1712,
+                "y": 768
+              }
+            ],
+            "sections": [
+              {
+                "name": "Outfit",
+                "item_count": 1,
+                "visibility_rules": [ "opt_outfits" ]
+              }
+            ],
+            "access_rules": [ "$Ability6" ]
+          },
+          {
+            "name": "tucked deep in a corner in the bouncer room",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1590,
+                "y": 1168
+              }
+            ],
+            "sections": [
+              {
+                "name": "Health",
+                "chest_opened_img": "images/heartpiece-Full_opened.png",
+                "chest_unopened_img": "images/items/heartpiece-Full.png",
+                "item_count": 1,
+                "visibility_rules": [ "opt_health" ]
+              }
+            ],
+            "access_rules": [ "$Health2" ]
+          },
+          {
+            "name": "the extremely slappable wheel guy room",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1800,
+                "y": 160
+              }
+            ],
+            "sections": [
+              {
+                "name": "Health",
+                "chest_opened_img": "images/heartpiece-Full_opened.png",
+                "chest_unopened_img": "images/items/heartpiece-Full.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_health" ]
+              }
+            ],
+            "access_rules": [ "$Health3" ]
+          },
+          {
+            "name": "through the wallkick tunnel",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 2000,
+                "y": 444
+              }
+            ],
+            "sections": [
+              {
+                "name": "Small Key",
+                "chest_opened_img": "images/tex_key_opened.png",
+                "chest_unopened_img": "images/items/tex_key.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_smallKeys" ]
+              }
+            ],
+            "access_rules": [ "$SmallKey3" ]
+          },
+          {
+            "name": "on the ledge above the bailey entrance",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1460,
+                "y": 1400
+              }
+            ],
+            "sections": [
+              {
+                "name": "Health",
+                "chest_opened_img": "images/heartpiece-Full_opened.png",
+                "chest_unopened_img": "images/items/heartpiece-Full.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_health" ]
+              }
+            ],
+            "access_rules": [ "$Health6" ]
+          },
+          {
+            "name": "the goatling in the gazebo",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1420,
+                "y": 420
+              }
+            ],
+            "sections": [
+              {
+                "name": "Goatling",
+                "chest_opened_img": "images/goatling_opened.png",
+                "chest_unopened_img": "images/goatling_unopened.png",
+                "item_count": 1,
+                "visibility_rules": [ "opt_goatlings" ]
+              },
+              {
+                "name": "Chair",
+                "chest_opened_img": "images/chair_opened.png",
+                "chest_unopened_img": "images/chair_unopened.png",
+                "item_count": 1,
+                "visibility_rules": [ "opt_chairs" ]
+              }
+            ]
+          },
+          {
+            "name": "next to a bouncer in the massive room",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1660,
+                "y": 400
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ability",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_abilities" ]
+              }
+            ],
+            "access_rules": [ "$Ability8" ]
+          },
+          {
+            "name": "in the room with two other ones to each side",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1100,
+                "y": 410
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ability",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_abilities" ]
+              }
+            ],
+            "access_rules": [ "$Ability9" ]
           }
         ]
       },
       {
-        "name": "next to a bouncer in the massive room",
-        "map_locations": [
+        "name": "CsOldSoftlockRoom",
+        "access_rules": [ "$locAccess|CsOldSoftlockRoom" ],
+        "children": [
           {
-            "map": "lowerCastle",
-            "x": 1660,
-            "y": 400
-          }
-        ],
-        "sections": [
+            "name": "the old softlock room",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 624,
+                "y": 164
+              }
+            ],
+            "sections": [
+              {
+                "name": "Health",
+                "chest_opened_img": "images/heartpiece-Full_opened.png",
+                "chest_unopened_img": "images/items/heartpiece-Full.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_health" ]
+              }
+            ],
+            "access_rules": [ "$Health4" ]
+          },
           {
-            "name": "Ability",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
+            "name": "the goatling about to jump into the haze",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 704,
+                "y": 528
+              }
+            ],
+            "sections": [
+              {
+                "name": "Goatling",
+                "chest_opened_img": "images/goatling_opened.png",
+                "chest_unopened_img": "images/goatling_unopened.png",
+                "item_count": 1,
+                "visibility_rules": [ "opt_goatlings" ]
+              }
+            ],
+            "access_rules": [ "$Goatling4" ]
           }
         ]
       },
       {
-        "name": "in the room with two other ones to each side",
-        "map_locations": [
+        "name": "CsTheatreEntrance",
+        "access_rules": [ "$locAccess|CsTheatreEntrance" ],
+        "children": [
           {
-            "map": "lowerCastle",
-            "x": 1100,
-            "y": 410
+            "name": "cool moon room",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 658,
+                "y": 796
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ability",
+                "item_count": 1,
+                "visibility_rules": [ "opt_abilities" ]
+              }
+            ],
+            "access_rules": [ "$Ability7" ]
           }
-        ],
-        "sections": [
+        ]
+      },
+      {
+        "name": "CsTheatreEntryNearPrison",
+        "access_rules": [ "$locAccess|CsTheatreEntryNearPrison" ],
+        "children": [
           {
-            "name": "Ability",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
+            "name": "in the pit next to the dungeon entrance",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1220,
+                "y": 710
+              }
+            ],
+            "sections": [
+              {
+                "name": "Health",
+                "chest_opened_img": "images/heartpiece-Full_opened.png",
+                "chest_unopened_img": "images/items/heartpiece-Full.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_health" ]
+              }
+            ],
+            "access_rules": [ "$Health5" ]
+          },
+          {
+            "name": "the goatling that calls you bubble girl",
+            "map_locations": [
+              {
+                "map": "lowerCastle",
+                "x": 1370,
+                "y": 740
+              }
+            ],
+            "sections": [
+              {
+                "name": "Goatling",
+                "chest_opened_img": "images/goatling_opened.png",
+                "chest_unopened_img": "images/goatling_unopened.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_goatlings" ]
+              }
+            ],
+            "access_rules": [ "$Goatling5" ]
           }
         ]
       }

@@ -5,12 +5,12 @@
     "item_margin": "4,4",
     "item_size": "36",
     "rows": [
-      [ "dreambreaker", "indignation", "sungreaves" ],
-      [ "slide", "solarwind", "sunsetter" ],
-      [ "strikebreak", "clinggem", "ascendantlight" ],
-      [ "soulcutter" ],
-      [ "clearmind", "empathy", "goodgraces" ],
-      [ "martialprowess", "pilgrimage", "aerialfinesse" ],
+      [ "DreamBreaker", "Indignation", "HeliacalPower" ],
+      [ "Slide", "SolarWind", "Sunsetter" ],
+      [ "Strikebreak", "ClingGem", "AscendantLight" ],
+      [ "SoulCutter" ],
+      [ "ClearMind", "Empathy", "GoodGraces" ],
+      [ "MartialProwess", "Pilgrimage", "AerialFinesse" ],
       [ "heartpieces", "smallkeys", "bigkeys" ]
     ]
   },
@@ -98,42 +98,42 @@
                       {
                         "type": "item",
                         "margin": "0, 4, 0, 0",
-                        "item": "opt_momentumConservation"
+                        "item": "Momentum"
                       },
                       {
                         "type": "item",
                         "margin": "0, 4, 0, 0",
-                        "item": "opt_singleWallWallkick"
+                        "item": "OneWall"
                       },
                       {
                         "type": "item",
                         "margin": "0, 4, 0, 0",
-                        "item": "opt_reverseWallkicks"
+                        "item": "ReverseKick"
                       },
                       {
                         "type": "item",
                         "margin": "0, 4, 0, 0",
-                        "item": "opt_sunsetterFlipAbuse"
+                        "item": "SunsetterAbuse"
                       },
                       {
                         "type": "item",
                         "margin": "0, 4, 0, 0",
-                        "item": "opt_ascendantLightAbuse"
+                        "item": "PogoAbuse"
                       },
                       {
                         "type": "item",
                         "margin": "0, 4, 0, 0",
-                        "item": "opt_movement"
+                        "item": "Movement"
                       },
                       {
                         "type": "item",
                         "margin": "0, 4, 0, 0",
-                        "item": "opt_clingAbuse"
+                        "item": "ClingAbuse"
                       },
                       {
                         "type": "item",
                         "margin": "0, 4, 0, 0",
-                        "item": "opt_knowledge"
+                        "item": "Knowledge"
                       }
                     ]
                   }

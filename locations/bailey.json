@@ -3,7 +3,8 @@
     "name": "Empty Bailey",
     "chest_unopened_img": "images/ability_unopened.png",
     "chest_opened_img": "images/ability_opened.png",
-    "color": "#0004fc",
+    "color": "#808080",
+    "access_rules": [ "$locAccess|EmptyBailey" ],
     "children": [
       {
         "name": "the goatling who's hiding",
@@ -19,11 +20,11 @@
             "name": "Goatling",
             "chest_opened_img": "images/goatling_opened.png",
             "chest_unopened_img": "images/goatling_unopened.png",
-            "access_rules": [],
             "item_count": 1,
             "visibility_rules": [ "opt_goatlings" ]
           }
-        ]
+        ],
+        "access_rules": [ "Slide" ]
       },
       {
         "name": "in the building you slide into",
@@ -39,11 +40,11 @@
             "name": "Small Key",
             "chest_opened_img": "images/tex_key_opened.png",
             "chest_unopened_img": "images/items/tex_key.png",
-            "access_rules": [],
             "item_count": 1,
             "visibility_rules": [ "opt_smallKeys" ]
           }
-        ]
+        ],
+        "access_rules": [ "Slide" ]
       },
       {
         "name": "guarded by the hand and soldier",
@@ -59,11 +60,12 @@
             "name": "Big Key",
             "chest_opened_img": "images/ui_BigKey_opened.png",
             "chest_unopened_img": "images/items/ui_BigKey.png",
-            "access_rules": [],
             "item_count": 1,
+            "capture_item": true,
             "visibility_rules": [ "opt_bigKeys" ]
           }
-        ]
+        ],
+        "access_rules": [ "$BigKey1" ]
       },
       {
         "name": "where solar wind normally is",
@@ -77,11 +79,11 @@
         "sections": [
           {
             "name": "Ability",
-            "access_rules": [],
             "item_count": 1,
             "visibility_rules": [ "opt_abilities" ]
           }
-        ]
+        ],
+        "access_rules": [ "$Ability17" ]
       },
       {
         "name": "in the tower in the middle",
@@ -97,11 +99,12 @@
             "name": "Health",
             "chest_opened_img": "images/heartpiece-Full_opened.png",
             "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
             "item_count": 1,
+            "capture_item": true,
             "visibility_rules": [ "opt_health" ]
           }
-        ]
+        ],
+        "access_rules": [ "$Health10" ]
       },
       {
         "name": "under the cheese bell",
@@ -115,11 +118,12 @@
         "sections": [
           {
             "name": "Ability",
-            "access_rules": [],
             "item_count": 1,
+            "capture_item": true,
             "visibility_rules": [ "opt_abilities" ]
           }
-        ]
+        ],
+        "access_rules": [ "$Ability18" ]
       },
       {
         "name": "the locked up time trial",
@@ -133,11 +137,11 @@
         "sections": [
           {
             "name": "Outfit",
-            "access_rules": [],
             "item_count": 1,
             "visibility_rules": [ "opt_outfits" ]
           }
-        ]
+        ],
+        "access_rules": [ "$Ability19" ]
       }
     ]
   }

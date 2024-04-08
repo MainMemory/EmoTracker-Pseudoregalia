@@ -3,177 +3,206 @@
     "name": "Dilapidated Dungeon",
     "chest_unopened_img": "images/ability_unopened.png",
     "chest_opened_img": "images/ability_opened.png",
-    "color": "#0004fc",
+    "color": "#00C0C0",
     "children": [
       {
-        "name": "the time trial in the starting room",
-        "map_locations": [
+        "name": "EarlyPrison",
+        "access_rules": [ "$locAccess|EarlyPrison" ],
+        "children": [
           {
-            "map": "dungeon",
-            "x": 2144,
-            "y": 976
-          }
-        ],
-        "sections": [
+            "name": "the time trial in the starting room",
+            "map_locations": [
+              {
+                "map": "dungeon",
+                "x": 2144,
+                "y": 976
+              }
+            ],
+            "sections": [
+              {
+                "name": "Outfit",
+                "item_count": 1,
+                "visibility_rules": [ "opt_outfits" ]
+              }
+            ],
+            "access_rules": [ "$Ability0" ]
+          },
           {
-            "name": "Outfit",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_outfits" ]
-          }
-        ]
-      },
-      {
-        "name": "the goatling who fell out his cage",
-        "map_locations": [
+            "name": "the goatling who fell out his cage",
+            "map_locations": [
+              {
+                "map": "dungeon",
+                "x": 2144,
+                "y": 880
+              }
+            ],
+            "sections": [
+              {
+                "name": "Goatling",
+                "chest_opened_img": "images/goatling_opened.png",
+                "chest_unopened_img": "images/goatling_unopened.png",
+                "item_count": 1,
+                "visibility_rules": [ "opt_goatlings" ]
+              }
+            ]
+          },
           {
-            "map": "dungeon",
-            "x": 2144,
-            "y": 880
-          }
-        ],
-        "sections": [
-          {
-            "name": "Goatling",
-            "chest_opened_img": "images/goatling_opened.png",
-            "chest_unopened_img": "images/goatling_unopened.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_goatlings" ]
-          }
-        ]
-      },
-      {
-        "name": "where the first health piece is",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 1840,
-            "y": 708
-          }
-        ],
-        "sections": [
-          {
-            "name": "Health",
-            "chest_opened_img": "images/heartpiece-Full_opened.png",
-            "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
-          }
-        ]
-      },
-      {
-        "name": "where dream breaker normally is",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 2152,
-            "y": 364
-          }
-        ],
-        "sections": [
-          {
-            "name": "Ability",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
+            "name": "where the first health piece is",
+            "map_locations": [
+              {
+                "map": "dungeon",
+                "x": 1840,
+                "y": 708
+              }
+            ],
+            "sections": [
+              {
+                "name": "Health",
+                "chest_opened_img": "images/heartpiece-Full_opened.png",
+                "chest_unopened_img": "images/items/heartpiece-Full.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_health" ]
+              }
+            ],
+            "access_rules": [ "$Health0" ]
           }
         ]
       },
       {
-        "name": "where slide normally is",
-        "map_locations": [
+        "name": "VDreamBreaker",
+        "access_rules": [ "$locAccess|VDreamBreaker" ],
+        "children": [
           {
-            "map": "dungeon",
-            "x": 784,
-            "y": 512
-          }
-        ],
-        "sections": [
-          {
-            "name": "Abilities",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
-          }
-        ]
-      },
-      {
-        "name": "black hole parkour off the beaten path",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 672,
-            "y": 1360
-          }
-        ],
-        "sections": [
-          {
-            "name": "Ability",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
+            "name": "where dream breaker normally is",
+            "map_locations": [
+              {
+                "map": "dungeon",
+                "x": 2152,
+                "y": 364
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ability",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_abilities" ]
+              }
+            ],
+            "access_rules": [ "$Ability1" ]
           }
         ]
       },
       {
-        "name": "up in the rafters",
-        "map_locations": [
+        "name": "LatePrison",
+        "access_rules": [ "$locAccess|LatePrison" ],
+        "children": [
           {
-            "map": "dungeon",
-            "x": 1408,
-            "y": 560
-          }
-        ],
-        "sections": [
+            "name": "where slide normally is",
+            "map_locations": [
+              {
+                "map": "dungeon",
+                "x": 784,
+                "y": 512
+              }
+            ],
+            "sections": [
+              {
+                "name": "Abilities",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_abilities" ]
+              }
+            ],
+            "access_rules": [ "$Ability2" ]
+          },
           {
-            "name": "Small Key",
-            "chest_opened_img": "images/tex_key_opened.png",
-            "chest_unopened_img": "images/items/tex_key.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_smallKeys" ]
+            "name": "black hole parkour off the beaten path",
+            "map_locations": [
+              {
+                "map": "dungeon",
+                "x": 672,
+                "y": 1360
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ability",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_abilities" ]
+              }
+            ],
+            "access_rules": [ "$Ability3" ]
           }
         ]
       },
       {
-        "name": "missable high walled room",
-        "map_locations": [
+        "name": "StrongEyes",
+        "access_rules": [ "$locAccess|StrongEyes" ],
+        "children": [
           {
-            "map": "dungeon",
-            "x": 1488,
-            "y": 80
-          }
-        ],
-        "sections": [
+            "name": "up in the rafters",
+            "map_locations": [
+              {
+                "map": "dungeon",
+                "x": 1408,
+                "y": 560
+              }
+            ],
+            "sections": [
+              {
+                "name": "Small Key",
+                "chest_opened_img": "images/tex_key_opened.png",
+                "chest_unopened_img": "images/items/tex_key.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_smallKeys" ]
+              }
+            ],
+            "access_rules": [ "$SmallKey0" ]
+          },
           {
-            "name": "Health",
-            "chest_opened_img": "images/heartpiece-Full_opened.png",
-            "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
-          }
-        ]
-      },
-      {
-        "name": "strong eyes' lair",
-        "map_locations": [
+            "name": "missable high walled room",
+            "map_locations": [
+              {
+                "map": "dungeon",
+                "x": 1488,
+                "y": 80
+              }
+            ],
+            "sections": [
+              {
+                "name": "Health",
+                "chest_opened_img": "images/heartpiece-Full_opened.png",
+                "chest_unopened_img": "images/items/heartpiece-Full.png",
+                "item_count": 1,
+                "visibility_rules": [ "opt_health" ]
+              }
+            ],
+            "access_rules": [ "$Health1" ]
+          },
           {
-            "map": "dungeon",
-            "x": 1856,
-            "y": 80
-          }
-        ],
-        "sections": [
-          {
-            "name": "Small Key",
-            "chest_opened_img": "images/tex_key_opened.png",
-            "chest_unopened_img": "images/items/tex_key.png",
-            "access_rules": [],
-            "item_count": 1,
-            "visibility_rules": [ "opt_smallKeys" ]
+            "name": "strong eyes' lair",
+            "map_locations": [
+              {
+                "map": "dungeon",
+                "x": 1856,
+                "y": 80
+              }
+            ],
+            "sections": [
+              {
+                "name": "Small Key",
+                "chest_opened_img": "images/tex_key_opened.png",
+                "chest_unopened_img": "images/items/tex_key.png",
+                "item_count": 1,
+                "capture_item": true,
+                "visibility_rules": [ "opt_smallKeys" ]
+              }
+            ],
+            "access_rules": [ "$SmallKey1" ]
           }
         ]
       }
