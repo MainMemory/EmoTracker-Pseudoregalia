@@ -61,6 +61,7 @@
                 "chest_opened_img": "images/tex_key_opened.png",
                 "chest_unopened_img": "images/items/tex_key.png",
                 "item_count": 1,
+                "capture_item": true,
                 "visibility_rules": [ "opt_smallKeys" ]
               }
             ],

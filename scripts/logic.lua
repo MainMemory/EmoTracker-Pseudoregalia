@@ -585,7 +585,7 @@ end
 
 -- in the room with a lever on each side
 function SmallKey4()
-    return checkLockNoInspect(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))))
+    return checkLock(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))))
 end
 
 -- tucked near the theatre entrance
