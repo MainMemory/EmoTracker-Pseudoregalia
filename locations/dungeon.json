@@ -66,13 +66,7 @@
               }
             ],
             "access_rules": [ "$Health0" ]
-          }
-        ]
-      },
-      {
-        "name": "VDreamBreaker",
-        "access_rules": [ "$locAccess|VDreamBreaker" ],
-        "children": [
+          },
           {
             "name": "where dream breaker normally is",
             "map_locations": [

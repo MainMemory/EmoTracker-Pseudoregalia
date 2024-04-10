@@ -58,16 +58,10 @@ local spawns = {
 }
 
 local locations = {
-VDreamBreaker = {
-locRefs = { "EarlyPrison" },
-logic = function()
-return Loc("EarlyPrison")
-end
-},
 EarlyPrison = {
-locRefs = { "StrongEyes", "VDreamBreaker", "LatePrison", "CsMain" },
+locRefs = { "StrongEyes", "LatePrison", "CsMain" },
 logic = function()
-return Any(All(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))), Any(All(Any(Key(), All(Powerup("Sunsetter"), Powerup("DreamBreaker"), Trick("Knowledge", 1))), Loc("StrongEyes")), Loc("VDreamBreaker"), Loc("LatePrison"))), All(Any(All(Powerup("HeliacalPower", 3), Trick("Movement", 3), Trick("OneWall", 2)), All(Powerup("HeliacalPower", 3), Powerup("SolarWind"), Trick("Movement", 2), Trick("OneWall", 2)), All(Powerup("Sunsetter"), Trick("Knowledge", 3))), Loc("VDreamBreaker")), Loc("CsMain"))
+return All(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))), Any(All(Any(Key(), All(Powerup("Sunsetter"), Powerup("DreamBreaker"), Trick("Knowledge", 1))), Loc("StrongEyes")), Loc("LatePrison"), Loc("CsMain")))
 end
 },
 LatePrison = {
@@ -440,7 +434,7 @@ end
 
 -- where dream breaker normally is
 function Ability1()
-    return checkLock(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 2)), All(Powerup("HeliacalPower", 3), Trick("Movement", 3), Trick("OneWall", 2)), All(Powerup("HeliacalPower", 3), Powerup("SolarWind"), Trick("Movement", 2), Trick("OneWall", 2))))
+    return checkLock(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 3)), All(Powerup("HeliacalPower", 3), Trick("Movement", 3), Trick("OneWall", 2)), All(Powerup("HeliacalPower", 3), Powerup("SolarWind"), Trick("Movement", 2), Trick("OneWall", 2))))
 end
 
 -- where the first health piece is
