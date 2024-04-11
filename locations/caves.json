@@ -28,7 +28,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health11" ]
+            "access_rules": [ "HeliacalPower:3", "Sunsetter,HeliacalPower", "{}" ]
           },
           {
             "name": "the soul cutter lever room",
@@ -49,7 +49,7 @@
                 "visibility_rules": [ "opt_bigKeys" ]
               }
             ],
-            "access_rules": [ "$BigKey2" ]
+            "access_rules": [ "$BigKey2", "{}" ]
           }
         ]
       },
@@ -74,7 +74,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability20" ]
+            "access_rules": [ "DreamBreaker", "Sunsetter,$trickCheck|Knowledge|3", "{}" ]
           },
           {
             "name": "in an alcove behind some pillars",
@@ -95,7 +95,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health12" ]
+            "access_rules": [ "DreamBreaker", "Sunsetter,$trickCheck|Knowledge|1", "{}" ]
           }
         ]
       },
@@ -122,7 +122,7 @@
                 "visibility_rules": [ "opt_smallKeys" ]
               }
             ],
-            "access_rules": [ "$SmallKey6" ]
+            "access_rules": [ "Sunsetter", "SolarWind", "{}" ]
           },
           {
             "name": "the note on a high ledge in the big room",
@@ -143,7 +143,7 @@
                 "visibility_rules": [ "opt_notes" ]
               }
             ],
-            "access_rules": [ "$Note1" ]
+            "access_rules": [ "$Note1", "{}" ]
           },
           {
             "name": "black hole parkour behind strikebreak wall",
@@ -179,7 +179,7 @@
                 "visibility_rules": [ "opt_outfits" ]
               }
             ],
-            "access_rules": [ "$Ability22" ]
+            "access_rules": [ "DreamBreaker,SolarWind,HeliacalPower:3,ClingGem:6,Sunsetter" ]
           }
         ]
       },
@@ -203,7 +203,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability23" ]
+            "access_rules": [ "$keyCheck" ]
           },
           {
             "name": "the note behind the locked door",
@@ -223,7 +223,7 @@
                 "visibility_rules": [ "opt_notes" ]
               }
             ],
-            "access_rules": [ "$Note2" ]
+            "access_rules": [ "$keyCheck" ]
           }
         ]
       },
@@ -250,7 +250,7 @@
                 "visibility_rules": [ "opt_notes" ]
               }
             ],
-            "access_rules": [ "$Note3" ]
+            "access_rules": [ "HeliacalPower:3", "ClingGem:6", "AscendantLight", "SolarWind", "HeliacalPower,Sunsetter", "HeliacalPower,$trickCheck|ReverseKick|1", "Sunsetter,$trickCheck|Movement|1", "{}" ]
           },
           {
             "name": "on top of the big building",
@@ -270,7 +270,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health13" ]
+            "access_rules": [ "HeliacalPower:3", "Sunsetter", "SolarWind" ]
           }
         ]
       }

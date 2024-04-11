@@ -107,7 +107,7 @@
                 "visibility_rules": [ "opt_smallKeys" ]
               }
             ],
-            "access_rules": [ "$SmallKey2" ]
+            "access_rules": [ "Sunsetter", "SolarWind", "HeliacalPower,$trickCheck|Movement|2", "ClingGem:2,$trickCheck|ClingAbuse|1", "{}" ]
           },
           {
             "name": "the goatling who wanted to see the armour display",
@@ -144,7 +144,7 @@
                 "visibility_rules": [ "opt_outfits" ]
               }
             ],
-            "access_rules": [ "$Ability6" ]
+            "access_rules": [ "$keyCheck" ]
           },
           {
             "name": "tucked deep in a corner in the bouncer room",
@@ -164,7 +164,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health2" ]
+            "access_rules": [ "ClingGem:6", "HeliacalPower:3,HeliacalPower,$trickCheck|Movement|2" ]
           },
           {
             "name": "the extremely slappable wheel guy room",
@@ -185,7 +185,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health3" ]
+            "access_rules": [ "AscendantLight", "ClingGem:2", "HeliacalPower:3,$trickCheck|OneWall|1", "{}" ]
           },
           {
             "name": "through the wallkick tunnel",
@@ -227,7 +227,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health6" ]
+            "access_rules": [ "ClingGem:4", "HeliacalPower:3,HeliacalPower,$trickCheck|Movement|1", "SolarWind,HeliacalPower", "{}" ]
           },
           {
             "name": "the goatling in the gazebo",
@@ -272,7 +272,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability8" ]
+            "access_rules": [ "$Ability8", "{}" ]
           },
           {
             "name": "in the room with two other ones to each side",
@@ -291,7 +291,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability9" ]
+            "access_rules": [ "$Ability9", "{}" ]
           }
         ]
       },
@@ -318,7 +318,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health4" ]
+            "access_rules": [ "ClingGem:6,$trickCheck|ClingAbuse|3,$trickCheck|Movement|2", "SolarWind,HeliacalPower:3,HeliacalPower,AscendantLight", "SolarWind,HeliacalPower,$trickCheck|Movement|2", "HeliacalPower:3,Sunsetter,$trickCheck|OneWall|2,$trickCheck|SunsetterAbuse|2", "{}" ]
           },
           {
             "name": "the goatling about to jump into the haze",
@@ -338,7 +338,7 @@
                 "visibility_rules": [ "opt_goatlings" ]
               }
             ],
-            "access_rules": [ "$Goatling4" ]
+            "access_rules": [ "DreamBreaker", "Sunsetter,$trickCheck|Knowledge|1" ]
           }
         ]
       },
@@ -362,7 +362,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability7" ]
+            "access_rules": [ "ClingGem:6,$trickCheck|ClingAbuse|1", "SolarWind,HeliacalPower:3,HeliacalPower,$trickCheck|Movement|2", "Sunsetter,ClingGem:4,$trickCheck|ClingAbuse|1", "Sunsetter,HeliacalPower:3,ClingGem:2", "SolarWind,ClingGem:2,HeliacalPower:3" ]
           }
         ]
       },
@@ -389,7 +389,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health5" ]
+            "access_rules": [ "ClingGem:4", "HeliacalPower", "{}" ]
           },
           {
             "name": "the goatling that calls you bubble girl",
@@ -410,7 +410,7 @@
                 "visibility_rules": [ "opt_goatlings" ]
               }
             ],
-            "access_rules": [ "$Goatling5" ]
+            "access_rules": [ "HeliacalPower", "ClingGem:4", "{}" ]
           }
         ]
       }

@@ -26,7 +26,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability26" ]
+            "access_rules": [ "$Ability26", "{}" ]
           },
           {
             "name": "the locked up time trial",
@@ -44,7 +44,7 @@
                 "visibility_rules": [ "opt_outfits" ]
               }
             ],
-            "access_rules": [ "$Ability27" ]
+            "access_rules": [ "DreamBreaker,SolarWind,HeliacalPower:3,ClingGem:6,Sunsetter" ]
           }
         ]
       },
@@ -69,8 +69,7 @@
                 "item_count": 3,
                 "visibility_rules": [ "opt_chairs" ]
               }
-            ],
-            "access_rules": [ "$Chair13" ]
+            ]
           },
           {
             "name": "the chair next to the books",
@@ -89,8 +88,7 @@
                 "item_count": 1,
                 "visibility_rules": [ "opt_chairs" ]
               }
-            ],
-            "access_rules": [ "$Chair14" ]
+            ]
           }
         ]
       },
@@ -161,7 +159,7 @@
                 "visibility_rules": [ "opt_goatlings" ]
               }
             ],
-            "access_rules": [ "$Goatling14" ]
+            "access_rules": [ "HeliacalPower:3", "ClingGem:6", "SolarWind,HeliacalPower", "{}" ]
           },
           {
             "name": "the chair near the courtyard",
@@ -182,7 +180,7 @@
                 "visibility_rules": [ "opt_chairs" ]
               }
             ],
-            "access_rules": [ "$Chair13" ]
+            "access_rules": [ "ClingGem:4", "SolarWind,HeliacalPower,HeliacalPower:3", "{}" ]
           },
           {
             "name": "the chair in the soul cutter zone",
@@ -203,7 +201,7 @@
                 "visibility_rules": [ "opt_chairs" ]
               }
             ],
-            "access_rules": [ "$Chair14" ]
+            "access_rules": [ "$Chair14", "{}" ]
           },
           {
             "name": "behind three maximum security cages",
@@ -224,7 +222,7 @@
                 "visibility_rules": [ "opt_bigKeys" ]
               }
             ],
-            "access_rules": [ "$BigKey4" ]
+            "access_rules": [ "$BigKey4", "{}" ]
           },
           {
             "name": "where soul cutter normally is",
@@ -243,7 +241,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability28" ]
+            "access_rules": [ "$Ability28", "{}" ]
           },
           {
             "name": "in the back on a pillar",
@@ -264,7 +262,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health15" ]
+            "access_rules": [ "HeliacalPower:3", "ClingGem:6", "{}" ]
           },
           {
             "name": "behind the locked door",

@@ -65,7 +65,7 @@
             "visibility_rules": [ "opt_bigKeys" ]
           }
         ],
-        "access_rules": [ "$BigKey1" ]
+        "access_rules": [ "Sunsetter", "HeliacalPower:3", "ClingGem:4", "SolarWind", "$trickCheck|Movement|2,@EbEntryUnderBelly", "{}" ]
       },
       {
         "name": "where solar wind normally is",
@@ -104,7 +104,7 @@
             "visibility_rules": [ "opt_health" ]
           }
         ],
-        "access_rules": [ "$Health10" ]
+        "access_rules": [ "$Health10", "{}" ]
       },
       {
         "name": "under the cheese bell",
@@ -123,7 +123,7 @@
             "visibility_rules": [ "opt_abilities" ]
           }
         ],
-        "access_rules": [ "$Ability18" ]
+        "access_rules": [ "$Ability18", "{}" ]
       },
       {
         "name": "the locked up time trial",
@@ -141,7 +141,7 @@
             "visibility_rules": [ "opt_outfits" ]
           }
         ],
-        "access_rules": [ "$Ability19" ]
+        "access_rules": [ "DreamBreaker,SolarWind,HeliacalPower:3,ClingGem:6,Sunsetter" ]
       }
     ]
   }

@@ -65,7 +65,7 @@
                 "visibility_rules": [ "opt_smallKeys" ]
               }
             ],
-            "access_rules": [ "$SmallKey4" ]
+            "access_rules": [ "DreamBreaker", "Sunsetter,$trickCheck|Knowledge|1", "{}" ]
           },
           {
             "name": "tucked near the theatre entrance",
@@ -83,7 +83,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability15" ]
+            "access_rules": [ "Sunsetter", "HeliacalPower", "ClingGem:4" ]
           },
           {
             "name": "at the end of the parkour",
@@ -107,7 +107,7 @@
                 "name": "Outfit",
                 "item_count": 1,
                 "visibility_rules": [ "opt_outfits" ],
-                "access_rules": [ "$Ability16" ]
+                "access_rules": [ "DreamBreaker,SolarWind,HeliacalPower:3,ClingGem:6,Sunsetter,AscendantLight" ]
               }
             ]
           },
@@ -198,7 +198,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability14" ]
+            "access_rules": [ "$Ability14", "{}" ]
           },
           {
             "name": "in an alcove next to the locked door",
@@ -219,7 +219,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health9" ]
+            "access_rules": [ "Sunsetter", "HeliacalPower:3", "SolarWind", "$trickCheck|Movement|1", "{}" ]
           }
         ]
       }

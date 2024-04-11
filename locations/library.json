@@ -73,7 +73,7 @@
                 "visibility_rules": [ "opt_chairs" ]
               }
             ],
-            "access_rules": [ "$Note0" ]
+            "access_rules": [ "HeliacalPower:3", "ClingGem:4", "SolarWind", "{}" ]
           },
           {
             "name": "in the buttress room",
@@ -94,7 +94,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health7" ]
+            "access_rules": [ "HeliacalPower:3", "ClingGem:4", "{}" ]
           }
         ]
       },
@@ -125,7 +125,7 @@
                 "visibility_rules": [ "opt_abilities,opt_splitGreaves" ]
               }
             ],
-            "access_rules": [ "$Ability11" ]
+            "access_rules": [ "DreamBreaker", "Sunsetter,$trickCheck|Knowledge|2", "{}" ]
           },
           {
             "name": "the chair after the normal sun greaves location",
@@ -168,7 +168,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability12" ]
+            "access_rules": [ "SolarWind", "ClingGem:4", "HeliacalPower,$trickCheck|Movement|3" ]
           },
           {
             "name": "tucked deep behind the locked door",
@@ -188,7 +188,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health8" ]
+            "access_rules": [ "SolarWind", "ClingGem:4", "HeliacalPower,$trickCheck|Movement|3" ]
           }
         ]
       }

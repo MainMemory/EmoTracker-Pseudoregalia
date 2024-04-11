@@ -25,7 +25,7 @@
                 "visibility_rules": [ "opt_outfits" ]
               }
             ],
-            "access_rules": [ "$Ability0" ]
+            "access_rules": [ "DreamBreaker,SolarWind,HeliacalPower:3,ClingGem:6,Sunsetter" ]
           },
           {
             "name": "the goatling who fell out his cage",
@@ -65,7 +65,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health0" ]
+            "access_rules": [ "$Health0", "{}" ]
           },
           {
             "name": "where dream breaker normally is",
@@ -84,7 +84,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability1" ]
+            "access_rules": [ "DreamBreaker", "HeliacalPower:3,$trickCheck|Movement|3,$trickCheck|OneWall|2", "HeliacalPower:3,SolarWind,$trickCheck|Movement|2,$trickCheck|OneWall|2", "Sunsetter,$trickCheck|Knowledge|3", "{}" ]
           }
         ]
       },
@@ -109,7 +109,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability2" ]
+            "access_rules": [ "Slide", "HeliacalPower:3", "ClingGem:2", "Sunsetter,HeliacalPower", "HeliacalPower,$trickCheck|Movement|2", "Sunsetter,$trickCheck|Movement|2", "{}" ]
           },
           {
             "name": "black hole parkour off the beaten path",
@@ -128,7 +128,7 @@
                 "visibility_rules": [ "opt_abilities" ]
               }
             ],
-            "access_rules": [ "$Ability3" ]
+            "access_rules": [ "ClingGem:6", "AscendantLight,HeliacalPower:3", "HeliacalPower:3,SolarWind,$trickCheck|Movement|2,$trickCheck|OneWall|2", "{}" ]
           }
         ]
       },
@@ -155,7 +155,7 @@
                 "visibility_rules": [ "opt_smallKeys" ]
               }
             ],
-            "access_rules": [ "$SmallKey0" ]
+            "access_rules": [ "$SmallKey0", "{}" ]
           },
           {
             "name": "missable high walled room",
@@ -175,7 +175,7 @@
                 "visibility_rules": [ "opt_health" ]
               }
             ],
-            "access_rules": [ "$Health1" ]
+            "access_rules": [ "$Health1", "{}" ]
           },
           {
             "name": "strong eyes' lair",
@@ -196,7 +196,7 @@
                 "visibility_rules": [ "opt_smallKeys" ]
               }
             ],
-            "access_rules": [ "$SmallKey1" ]
+            "access_rules": [ "DreamBreaker", "{}" ]
           }
         ]
       }

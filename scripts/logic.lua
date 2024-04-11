@@ -415,41 +415,12 @@ function checkLock(access)
     elseif access == 1 then
         return 1, AccessibilityLevel.SequenceBreak
     end
-    return 1, AccessibilityLevel.Inspect
-end
-
-function checkLockNoInspect(access)
-    if access == 2 then
-        return 1
-    elseif access == 1 then
-        return 1, AccessibilityLevel.SequenceBreak
-    end
     return 0
-end
-
--- the time trial in the starting room
-function Ability0()
-    return checkLockNoInspect(All(Powerup("DreamBreaker"), Powerup("SolarWind"), Powerup("HeliacalPower", 3), Powerup("ClingGem", 6), Powerup("Sunsetter")))
-end
-
--- where dream breaker normally is
-function Ability1()
-    return checkLock(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 3)), All(Powerup("HeliacalPower", 3), Trick("Movement", 3), Trick("OneWall", 2)), All(Powerup("HeliacalPower", 3), Powerup("SolarWind"), Trick("Movement", 2), Trick("OneWall", 2))))
 end
 
 -- where the first health piece is
 function Health0()
     return checkLock(Any(Any(Powerup("Sunsetter"), Powerup("AscendantLight"), Powerup("HeliacalPower"), All(Powerup("SolarWind"), Trick("Movement", 1)), All(Powerup("ClingGem", 4), Trick("ClingAbuse", 1))), Loc("CsMain")))
-end
-
--- where slide normally is
-function Ability2()
-    return checkLock(Any(Powerup("Slide"), Powerup("HeliacalPower", 3), Powerup("ClingGem", 2), All(Powerup("Sunsetter"), Powerup("HeliacalPower")), All(Powerup("HeliacalPower"), Trick("Movement", 2)), All(Powerup("Sunsetter"), Trick("Movement", 2))))
-end
-
--- black hole parkour off the beaten path
-function Ability3()
-    return checkLock(Any(Powerup("ClingGem", 6), All(Powerup("AscendantLight"), Powerup("HeliacalPower", 3)), All(Powerup("HeliacalPower", 3), Powerup("SolarWind"), Trick("Movement", 2), Trick("OneWall", 2))))
 end
 
 -- up in the rafters
@@ -462,64 +433,9 @@ function Health1()
     return checkLock(All(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))), Any(Powerup("ClingGem", 4), All(Powerup("HeliacalPower", 3)))))
 end
 
--- strong eyes' lair
-function SmallKey1()
-    return checkLock(Powerup("DreamBreaker"))
-end
-
--- chillin' on a ledge by the window
-function SmallKey2()
-    return checkLock(Any(Powerup("Sunsetter"), Powerup("SolarWind"), All(Powerup("HeliacalPower"), Trick("Movement", 2)), All(Powerup("ClingGem", 2), Trick("ClingAbuse", 1))))
-end
-
--- the time trial behind a locked door
-function Ability6()
-    return checkLockNoInspect(Key())
-end
-
--- tucked deep in a corner in the bouncer room
-function Health2()
-    return checkLockNoInspect(Any(Powerup("ClingGem", 6), All(Powerup("HeliacalPower", 3), Powerup("HeliacalPower"), Trick("Movement", 2))))
-end
-
--- the extremely slappable wheel guy room
-function Health3()
-    return checkLock(Any(Powerup("AscendantLight"), Powerup("ClingGem", 2), All(Powerup("HeliacalPower", 3), Trick("OneWall", 1))))
-end
-
--- the old softlock room
-function Health4()
-    return checkLock(Any(All(Powerup("ClingGem", 6), Trick("ClingAbuse", 3), Trick("Movement", 2)), All(Powerup("SolarWind"), Powerup("HeliacalPower", 3), Powerup("HeliacalPower"), Powerup("AscendantLight")), All(Powerup("SolarWind"), Powerup("HeliacalPower"), Trick("Movement", 2)), All(Powerup("HeliacalPower", 3), Powerup("Sunsetter"), Trick("OneWall", 2), Trick("SunsetterAbuse", 2))))
-end
-
--- the goatling about to jump into the haze
-function Goatling4()
-    return checkLockNoInspect(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))))
-end
-
--- cool moon room
-function Ability7()
-    return checkLockNoInspect(Any(All(Powerup("ClingGem", 6), Trick("ClingAbuse", 1)), All(Powerup("SolarWind"), Powerup("HeliacalPower", 3), Powerup("HeliacalPower"), Trick("Movement", 2)), All(Powerup("Sunsetter"), Powerup("ClingGem", 4), Trick("ClingAbuse", 1)), All(Powerup("Sunsetter"), Powerup("HeliacalPower", 3), Powerup("ClingGem", 2)), All(Powerup("SolarWind"), Powerup("ClingGem", 2), Powerup("HeliacalPower", 3))))
-end
-
 -- through the wallkick tunnel
 function SmallKey3()
     return checkLock(All(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1)), All(Powerup("HeliacalPower", 3), Powerup("HeliacalPower"), Trick("OneWall", 1)), All(Powerup("SolarWind"), Powerup("HeliacalPower"), Trick("Movement", 1)), All(Powerup("SolarWind"), Trick("Movement", 2))), Any(Powerup("HeliacalPower", 3), Powerup("ClingGem", 6), All(Powerup("HeliacalPower", 3), Powerup("SolarWind"), Trick("Movement", 1), Trick("OneWall", 1)), All(Powerup("ClingGem", 2), Powerup("SolarWind")), All(Powerup("ClingGem", 2), Powerup("HeliacalPower", 3)), All(Powerup("ClingGem", 2), Powerup("HeliacalPower"), Trick("Movement", 2), Trick("OneWall", 1)))))
-end
-
--- in the pit next to the dungeon entrance
-function Health5()
-    return checkLock(Any(Powerup("ClingGem", 4), Powerup("HeliacalPower")))
-end
-
--- the goatling that calls you bubble girl
-function Goatling5()
-    return checkLock(Any(Powerup("HeliacalPower"), Powerup("ClingGem", 4)))
-end
-
--- on the ledge above the bailey entrance
-function Health6()
-    return checkLock(Any(Powerup("ClingGem", 4), All(Powerup("HeliacalPower", 3), Powerup("HeliacalPower"), Trick("Movement", 1)), All(Powerup("SolarWind"), Powerup("HeliacalPower"))))
 end
 
 -- next to a bouncer in the massive room
@@ -534,37 +450,12 @@ end
 
 -- the time trial amidst the books
 function Ability10()
-    return checkLockNoInspect(All(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))), Any(All(Powerup("Sunsetter"), Trick("Movement", 2)), All(Powerup("HeliacalPower", 3), Trick("Movement", 1)), All(Powerup("SolarWind"), Trick("Movement", 1)), All(Powerup("ClingGem", 6), Trick("Movement", 2), Trick("ClingAbuse", 1)), All(Powerup("Sunsetter"), Powerup("HeliacalPower"), Powerup("SolarWind")))))
-end
-
--- where sun greaves normally is
-function Ability11()
-    return checkLock(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 2))))
-end
-
--- the note next to the egg nest
-function Note0()
-    return checkLock(Any(Powerup("HeliacalPower", 3), Powerup("ClingGem", 4), Powerup("SolarWind")))
-end
-
--- in the buttress room
-function Health7()
-    return checkLock(Any(Powerup("HeliacalPower", 3), Powerup("ClingGem", 4)))
-end
-
--- in the hay behind the locked door
-function Ability12()
-    return checkLock(Any(Powerup("SolarWind"), Powerup("ClingGem", 4), All(Powerup("HeliacalPower"), Trick("Movement", 3))))
-end
-
--- tucked deep behind the locked door
-function Health8()
-    return checkLock(Any(Powerup("SolarWind"), Powerup("ClingGem", 4), All(Powerup("HeliacalPower"), Trick("Movement", 3))))
+    return checkLock(All(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))), Any(All(Powerup("Sunsetter"), Trick("Movement", 2)), All(Powerup("HeliacalPower", 3), Trick("Movement", 1)), All(Powerup("SolarWind"), Trick("Movement", 1)), All(Powerup("ClingGem", 6), Trick("Movement", 2), Trick("ClingAbuse", 1)), All(Powerup("Sunsetter"), Powerup("HeliacalPower"), Powerup("SolarWind")))))
 end
 
 -- where strikebreak normally is
 function Ability13()
-    return checkLockNoInspect(All(Powerup("Strikebreak"), Any(Powerup("ClingGem", 4), Powerup("SolarWind"), All(Powerup("HeliacalPower"), Trick("Movement", 2)))))
+    return checkLock(All(Powerup("Strikebreak"), Any(Powerup("ClingGem", 4), Powerup("SolarWind"), All(Powerup("HeliacalPower"), Trick("Movement", 2)))))
 end
 
 -- where sunsetter normally is
@@ -572,44 +463,19 @@ function Ability14()
     return checkLock(All(Powerup("DreamBreaker"), Any(Powerup("Sunsetter"), All(Powerup("HeliacalPower"), Trick("Movement", 2)), All(Powerup("ClingGem", 2), Trick("ClingAbuse", 1)))))
 end
 
--- in an alcove next to the locked door
-function Health9()
-    return checkLock(Any(Powerup("Sunsetter"), Powerup("HeliacalPower", 3), Powerup("SolarWind"), Trick("Movement", 1)))
-end
-
--- in the room with a lever on each side
-function SmallKey4()
-    return checkLock(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))))
-end
-
--- tucked near the theatre entrance
-function Ability15()
-    return checkLockNoInspect(Any(Powerup("Sunsetter"), Powerup("HeliacalPower"), Powerup("ClingGem", 4)))
-end
-
 -- at the end of the parkour
 function BigKey0()
-    return checkLockNoInspect(Any(All(Powerup("AscendantLight"), Any(All(Powerup("ClingGem", 4), Any(Powerup("Sunsetter"), Powerup("HeliacalPower", 3))), All(Powerup("Sunsetter"), Powerup("HeliacalPower", 3)))), All(Powerup("DreamBreaker"), Powerup("Slide"), Powerup("SolarWind"), Powerup("Sunsetter"), Powerup("ClingGem", 2), Powerup("HeliacalPower", 3))))
-end
-
--- the time trial at the end of the parkour
-function Ability16()
-    return checkLockNoInspect(All(Powerup("DreamBreaker"), Powerup("SolarWind"), Powerup("HeliacalPower", 3), Powerup("ClingGem", 6), Powerup("Sunsetter"), Powerup("AscendantLight")))
+    return checkLock(Any(All(Powerup("AscendantLight"), Any(All(Powerup("ClingGem", 4), Any(Powerup("Sunsetter"), Powerup("HeliacalPower", 3))), All(Powerup("Sunsetter"), Powerup("HeliacalPower", 3)))), All(Powerup("DreamBreaker"), Powerup("Slide"), Powerup("SolarWind"), Powerup("Sunsetter"), Powerup("ClingGem", 2), Powerup("HeliacalPower", 3))))
 end
 
 -- the chair in the middle of the parkour
 function Chair8()
-    return checkLockNoInspect(Any(All(Powerup("AscendantLight"), Any(All(Powerup("ClingGem", 4), Any(Powerup("Sunsetter"), Powerup("HeliacalPower", 3))), All(Powerup("Sunsetter"), Powerup("HeliacalPower", 3)))), All(Powerup("DreamBreaker"), Powerup("Slide"), Powerup("SolarWind"), Powerup("Sunsetter"), Powerup("ClingGem", 2), Powerup("HeliacalPower", 3))))
-end
-
--- guarded by the hand and soldier
-function BigKey1()
-    return checkLock(Any(Powerup("Sunsetter"), Powerup("HeliacalPower", 3), Powerup("ClingGem", 4), Powerup("SolarWind"), All(Trick("Movement", 2), Loc("EbEntryUnderBelly"))))
+    return checkLock(Any(All(Powerup("AscendantLight"), Any(All(Powerup("ClingGem", 4), Any(Powerup("Sunsetter"), Powerup("HeliacalPower", 3))), All(Powerup("Sunsetter"), Powerup("HeliacalPower", 3)))), All(Powerup("DreamBreaker"), Powerup("Slide"), Powerup("SolarWind"), Powerup("Sunsetter"), Powerup("ClingGem", 2), Powerup("HeliacalPower", 3))))
 end
 
 -- where solar wind normally is
 function Ability17()
-    return checkLockNoInspect(All(Powerup("Slide"), Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))), Any(Powerup("SolarWind"), All(Powerup("HeliacalPower"), Trick("Movement", 2)))))
+    return checkLock(All(Powerup("Slide"), Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))), Any(Powerup("SolarWind"), All(Powerup("HeliacalPower"), Trick("Movement", 2)))))
 end
 
 -- in the tower in the middle
@@ -622,34 +488,9 @@ function Ability18()
     return checkLock(Any(All(Powerup("SolarWind"), Any(Powerup("ClingGem", 6), All(Powerup("Sunsetter"), Powerup("HeliacalPower"), Trick("Movement", 2)))), All(Powerup("Sunsetter"), Powerup("HeliacalPower", 3), Trick("Movement", 2)), All(Powerup("ClingGem", 4), Powerup("Sunsetter"), Powerup("HeliacalPower", 3))))
 end
 
--- the locked up time trial
-function Ability19()
-    return checkLockNoInspect(All(Powerup("DreamBreaker"), Powerup("SolarWind"), Powerup("HeliacalPower", 3), Powerup("ClingGem", 6), Powerup("Sunsetter")))
-end
-
--- near the entrance from sansa keep
-function Health11()
-    return checkLock(Any(Powerup("HeliacalPower", 3), All(Powerup("Sunsetter"), Powerup("HeliacalPower"))))
-end
-
 -- the soul cutter lever room
 function BigKey2()
     return checkLock(All(Powerup("DreamBreaker"), Powerup("Sunsetter"), Any(All(Powerup("SoulCutter"), Any(Powerup("AscendantLight"), Powerup("ClingGem", 6))), All(Powerup("HeliacalPower", 3), Powerup("SolarWind")))))
-end
-
--- where ascendant light normally is
-function Ability20()
-    return checkLock(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 3))))
-end
-
--- in an alcove behind some pillars
-function Health12()
-    return checkLock(Any(Powerup("DreamBreaker"), All(Powerup("Sunsetter"), Trick("Knowledge", 1))))
-end
-
--- on a missable ledge in the centre
-function SmallKey6()
-    return checkLock(Any(Powerup("Sunsetter"), Powerup("SolarWind")))
 end
 
 -- the note on a high ledge in the big room
@@ -659,37 +500,7 @@ end
 
 -- black hole parkour behind strikebreak wall
 function Ability21()
-    return checkLockNoInspect(All(Powerup("Strikebreak"), Powerup("AscendantLight"), Any(Powerup("HeliacalPower"), Powerup("Sunsetter"), Powerup("SolarWind"), Powerup("ClingGem", 2))))
-end
-
--- the locked up time trial
-function Ability22()
-    return checkLockNoInspect(All(Powerup("DreamBreaker"), Powerup("SolarWind"), Powerup("HeliacalPower", 3), Powerup("ClingGem", 6), Powerup("Sunsetter")))
-end
-
--- behind the locked door
-function Ability23()
-    return checkLockNoInspect(Key())
-end
-
--- the note behind the locked door
-function Note2()
-    return checkLockNoInspect(Key())
-end
-
--- the note near the empty bailey entrance
-function Note3()
-    return checkLock(Any(Powerup("HeliacalPower", 3), Powerup("ClingGem", 6), Powerup("AscendantLight"), Powerup("SolarWind"), All(Powerup("HeliacalPower"), Powerup("Sunsetter")), All(Powerup("HeliacalPower"), Trick("ReverseKick", 1)), All(Powerup("Sunsetter"), Trick("Movement", 1))))
-end
-
--- on top of the big building
-function Health13()
-    return checkLockNoInspect(Any(Powerup("HeliacalPower", 3), Powerup("Sunsetter"), Powerup("SolarWind")))
-end
-
--- where cling gem normally is
-function Ability24()
-    return checkLock(Any(Powerup("ClingGem", 6), Powerup("HeliacalPower", 3), All(Powerup("HeliacalPower"), Powerup("Sunsetter"), Trick("Movement", 1))))
+    return checkLock(All(Powerup("Strikebreak"), Powerup("AscendantLight"), Any(Powerup("HeliacalPower"), Powerup("Sunsetter"), Powerup("SolarWind"), Powerup("ClingGem", 2))))
 end
 
 -- atop the tower
@@ -697,29 +508,9 @@ function BigKey3()
     return checkLock(Any(All(Powerup("ClingGem", 2), Any(Powerup("HeliacalPower", 3), All(Powerup("HeliacalPower"), Powerup("Sunsetter")))), All(Powerup("HeliacalPower", 3), Powerup("SolarWind"), Trick("Movement", 3), Trick("OneWall", 2))))
 end
 
--- the time trial at the tower entrance
-function Ability25()
-    return checkLockNoInspect(All(Powerup("DreamBreaker"), Powerup("SolarWind"), Powerup("HeliacalPower", 3), Powerup("ClingGem", 6), Powerup("Sunsetter")))
-end
-
 -- on a beam in the corner
 function Ability26()
     return checkLock(Any(All(Powerup("HeliacalPower", 3), Any(Powerup("ClingGem", 2), Powerup("SolarWind"), Powerup("Sunsetter"))), All(Powerup("SolarWind"), Powerup("ClingGem", 2)), All(Powerup("Sunsetter"), Powerup("HeliacalPower", 3), Trick("SunsetterAbuse", 1), Trick("Movement", 2), Trick("OneWall", 1))))
-end
-
--- the locked up time trial
-function Ability27()
-    return checkLockNoInspect(All(Powerup("DreamBreaker"), Powerup("SolarWind"), Powerup("HeliacalPower", 3), Powerup("ClingGem", 6), Powerup("Sunsetter")))
-end
-
--- the goatling that will kill again
-function Goatling14()
-    return checkLock(Any(Powerup("HeliacalPower", 3), Powerup("ClingGem", 6), All(Powerup("SolarWind"), Powerup("HeliacalPower"))))
-end
-
--- the chair near the courtyard
-function Chair13()
-    return checkLock(Any(Powerup("ClingGem", 4), All(Powerup("SolarWind"), Powerup("HeliacalPower"), Powerup("HeliacalPower", 3))))
 end
 
 -- the chair in the soul cutter zone
@@ -737,14 +528,9 @@ function Ability28()
     return checkLock(All(Powerup("Strikebreak"), Any(All(Powerup("SolarWind"), Powerup("HeliacalPower", 3), Powerup("HeliacalPower"), Powerup("ClingGem", 6), Powerup("Sunsetter"), Trick("Movement", 3), Trick("OneWall", 3), Trick("Knowledge", 2)), All(Powerup("Strikebreak"), Powerup("SolarWind"), Powerup("HeliacalPower"), Powerup("HeliacalPower", 3), Powerup("Sunsetter"), Trick("ClingAbuse", 3), Trick("OneWall", 3), Trick("Movement", 4), Trick("Momentum", 3)), All(Powerup("SoulCutter"), Any(Powerup("HeliacalPower"), Powerup("SolarWind"))))))
 end
 
--- in the back on a pillar
-function Health15()
-    return checkLock(Any(Powerup("HeliacalPower", 3), Powerup("ClingGem", 6)))
-end
-
 -- behind the locked door
 function Ability29()
-    return checkLockNoInspect(All(Key(), Any(Powerup("HeliacalPower", 3), Powerup("ClingGem", 2))))
+    return checkLock(All(Key(), Any(Powerup("HeliacalPower", 3), Powerup("ClingGem", 2))))
 end
 
 local locOrder = {
@@ -855,4 +641,12 @@ function locAccess(name)
         return 1, AccessibilityLevel.SequenceBreak
     end
     return 0
+end
+
+function keyCheck()
+    return checkLock(Key())
+end
+
+function trickCheck(trick, difficulty)
+    return checkLock(Trick(trick, tonumber(difficulty)))
 end
