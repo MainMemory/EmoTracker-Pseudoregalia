@@ -534,7 +534,6 @@ function Ability29()
 end
 
 local locOrder = {
-    "VDreamBreaker",
     "EarlyPrison",
     "LatePrison",
     "StrongEyes",
@@ -634,13 +633,7 @@ function startNotSet()
 end
 
 function locAccess(name)
-    local access = locations[name].access
-    if access == 2 then
-        return 1
-    elseif access == 1 then
-        return 1, AccessibilityLevel.SequenceBreak
-    end
-    return 0
+    return checkLock(Loc(name))
 end
 
 function keyCheck()
